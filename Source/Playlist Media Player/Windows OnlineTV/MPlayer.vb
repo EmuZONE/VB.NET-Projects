@@ -1,4 +1,6 @@
-﻿Public Class Player
+﻿Imports System.IO
+Public Class Player
+
     Private Sub ExitBtn_Click(sender As Object, e As EventArgs) Handles ExitBtn.Click
         End
     End Sub
@@ -70,7 +72,7 @@
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-
+        Process.Start(".\")
     End Sub
 
     Private Sub Button7_Click(sender As Object, e As EventArgs) Handles VolBtn.Click
@@ -92,19 +94,27 @@
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        AxWindowsMediaPlayer1.CreateGraphics()
+
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles AlbumOnBtn.Click
         AlbumPnl.Visible = False
         AlbumOnBtn.Visible = False
         AlbOffBtn.Visible = True
+        MovOnBtn.Enabled = False
+        MovOffBtn.Enabled = False
+        UnLockPic.Visible = False
+        LockPic.Visible = True
     End Sub
 
     Private Sub AlbOffBtn_Click(sender As Object, e As EventArgs) Handles AlbOffBtn.Click
         AlbumPnl.Visible = True
         AlbumOnBtn.Visible = True
         AlbOffBtn.Visible = False
+        MovOnBtn.Enabled = True
+        MovOffBtn.Enabled = True
+        UnLockPic.Visible = True
+        LockPic.Visible = False
     End Sub
 
     Private Sub Button15_Click(sender As Object, e As EventArgs)
@@ -176,7 +186,8 @@
     End Sub
 
     Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
-
+        AxWindowsMediaPlayer1.URL = "https://raw.githubusercontent.com/EmuZONE/YouTube/master/Sounds/042/088.m3u"
+        AxWindowsMediaPlayer1.Ctlcontrols.play()
     End Sub
 
     Private Sub Button5_Click_2(sender As Object, e As EventArgs) Handles Button5.Click
@@ -190,7 +201,7 @@
     End Sub
 
     Private Sub Button18_Click_1(sender As Object, e As EventArgs) Handles Button18.Click
-        AxWindowsMediaPlayer1.URL = "https://raw.githubusercontent.com/EmuZONE/YouTube/master/Sounds/012/088.wpl"
+        AxWindowsMediaPlayer1.URL = "https://raw.githubusercontent.com/EmuZONE/YouTube/master/Sounds/014/088.wpl"
         AxWindowsMediaPlayer1.Ctlcontrols.play()
     End Sub
 
@@ -232,5 +243,89 @@
             Onlinelbl.Visible = True
             Offlinelbl.Visible = False
         End If
+    End Sub
+
+    Private Sub Button28_Click(sender As Object, e As EventArgs) Handles MovOffBtn.Click
+        MoviePnl.Visible = False
+        MovOnBtn.Visible = True
+        MovOffBtn.Visible = False
+    End Sub
+
+    Private Sub MovOnBtn_Click(sender As Object, e As EventArgs) Handles MovOnBtn.Click
+        MoviePnl.Visible = True
+        MovOnBtn.Visible = False
+        MovOffBtn.Visible = True
+    End Sub
+
+    Private Sub Button38_Click(sender As Object, e As EventArgs) Handles Button38.Click
+        AxWindowsMediaPlayer1.currentPlaylist.clear()
+        AxWindowsMediaPlayer1.URL = "https://raw.githubusercontent.com/EmuZONE/YouTube/master/HTML/Listing/Back2Futur3.wpl"
+        AxWindowsMediaPlayer1.Ctlcontrols.play()
+    End Sub
+
+    Private Sub Button37_Click(sender As Object, e As EventArgs) Handles Button37.Click
+        AxWindowsMediaPlayer1.currentPlaylist.clear()
+        AxWindowsMediaPlayer1.URL = "https://raw.githubusercontent.com/EmuZONE/YouTube/master/HTML/Listing/JCVDFilms.wpl"
+        AxWindowsMediaPlayer1.Ctlcontrols.play()
+    End Sub
+
+    Private Sub Button36_Click(sender As Object, e As EventArgs) Handles Button36.Click
+        AxWindowsMediaPlayer1.currentPlaylist.clear()
+        AxWindowsMediaPlayer1.URL = "https://raw.githubusercontent.com/EmuZONE/YouTube/master/HTML/Listing/KultHorror.wpl"
+        AxWindowsMediaPlayer1.Ctlcontrols.play()
+    End Sub
+
+    Private Sub Button30_Click(sender As Object, e As EventArgs) Handles Button30.Click
+        AxWindowsMediaPlayer1.currentPlaylist.clear()
+        AxWindowsMediaPlayer1.URL = "https://raw.githubusercontent.com/EmuZONE/YouTube/master/HTML/Listing/LWCollection.wpl"
+        AxWindowsMediaPlayer1.Ctlcontrols.play()
+    End Sub
+
+    Private Sub Button26_Click(sender As Object, e As EventArgs) Handles Button26.Click
+        AxWindowsMediaPlayer1.currentPlaylist.clear()
+        AxWindowsMediaPlayer1.URL = "https://raw.githubusercontent.com/EmuZONE/YouTube/master/HTML/Listing/DieHard.wpl"
+        AxWindowsMediaPlayer1.Ctlcontrols.play()
+    End Sub
+
+    Private Sub Button24_Click(sender As Object, e As EventArgs) Handles Button24.Click
+        AxWindowsMediaPlayer1.currentPlaylist.clear()
+        AxWindowsMediaPlayer1.URL = "https://raw.githubusercontent.com/EmuZONE/YouTube/master/HTML/Listing/Termine.wpl"
+        AxWindowsMediaPlayer1.Ctlcontrols.play()
+    End Sub
+
+    Private Sub Button25_Click(sender As Object, e As EventArgs) Handles Button25.Click
+        AxWindowsMediaPlayer1.currentPlaylist.clear()
+        AxWindowsMediaPlayer1.URL = "https://raw.githubusercontent.com/EmuZONE/YouTube/master/HTML/Listing/007Coll/007.wpl"
+        AxWindowsMediaPlayer1.Ctlcontrols.play()
+    End Sub
+
+    Private Sub Button34_Click_1(sender As Object, e As EventArgs) Handles Button34.Click
+        AxWindowsMediaPlayer1.currentPlaylist.clear()
+        AxWindowsMediaPlayer1.URL = "https://raw.githubusercontent.com/EmuZONE/YouTube/master/HTML/Listing/Didi.wpl"
+        AxWindowsMediaPlayer1.Ctlcontrols.play()
+    End Sub
+
+    Private Sub Button35_Click(sender As Object, e As EventArgs) Handles Button35.Click
+        AxWindowsMediaPlayer1.currentPlaylist.clear()
+        AxWindowsMediaPlayer1.URL = "https://raw.githubusercontent.com/EmuZONE/YouTube/master/HTML/Listing/StarWars.wpl"
+        AxWindowsMediaPlayer1.Ctlcontrols.play()
+    End Sub
+
+    Private Sub Button31_Click(sender As Object, e As EventArgs) Handles Button31.Click
+        AxWindowsMediaPlayer1.currentPlaylist.clear()
+        AxWindowsMediaPlayer1.URL = "https://raw.githubusercontent.com/EmuZONE/YouTube/master/HTML/Listing/Indy.wpl"
+        AxWindowsMediaPlayer1.Ctlcontrols.play()
+    End Sub
+
+    Private Sub Button32_Click(sender As Object, e As EventArgs) Handles Button32.Click
+        AxWindowsMediaPlayer1.currentPlaylist.clear()
+        AxWindowsMediaPlayer1.URL = "https://raw.githubusercontent.com/EmuZONE/YouTube/master/HTML/Listing/Conan.wpl"
+        AxWindowsMediaPlayer1.Ctlcontrols.play()
+    End Sub
+
+    Private Sub Button33_Click(sender As Object, e As EventArgs) Handles Button33.Click
+        AxWindowsMediaPlayer1.currentPlaylist.clear()
+        AxWindowsMediaPlayer1.URL = "https://raw.githubusercontent.com/EmuZONE/YouTube/master/HTML/Listing/MovColl1.wpl"
+        AxWindowsMediaPlayer1.Ctlcontrols.play()
     End Sub
 End Class

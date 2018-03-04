@@ -26,8 +26,8 @@ Partial Class Libary
         Me.Button1 = New System.Windows.Forms.Button()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
-        Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.TextBox7 = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.TextBox5 = New System.Windows.Forms.TextBox()
@@ -37,20 +37,41 @@ Partial Class Libary
         Me.TextBox6 = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.Label8 = New System.Windows.Forms.Label()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.Label8 = New System.Windows.Forms.Label()
+        Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.TextBox9 = New System.Windows.Forms.TextBox()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
+        Me.TextBox10 = New System.Windows.Forms.TextBox()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.GroupBox6 = New System.Windows.Forms.GroupBox()
+        Me.TextBox11 = New System.Windows.Forms.TextBox()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.GroupBox7 = New System.Windows.Forms.GroupBox()
+        Me.TextBox12 = New System.Windows.Forms.TextBox()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.GroupBox8 = New System.Windows.Forms.GroupBox()
+        Me.TextBox13 = New System.Windows.Forms.TextBox()
+        Me.Label13 = New System.Windows.Forms.Label()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
+        Me.TabPage2.SuspendLayout()
+        Me.GroupBox4.SuspendLayout()
+        Me.GroupBox5.SuspendLayout()
+        Me.GroupBox6.SuspendLayout()
+        Me.GroupBox7.SuspendLayout()
+        Me.GroupBox8.SuspendLayout()
         Me.SuspendLayout()
         '
         'Button1
@@ -79,6 +100,7 @@ Partial Class Libary
         '
         Me.TabPage1.BackgroundImage = CType(resources.GetObject("TabPage1.BackgroundImage"), System.Drawing.Image)
         Me.TabPage1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.TabPage1.Controls.Add(Me.GroupBox8)
         Me.TabPage1.Controls.Add(Me.GroupBox3)
         Me.TabPage1.Controls.Add(Me.GroupBox2)
         Me.TabPage1.Controls.Add(Me.GroupBox1)
@@ -89,18 +111,6 @@ Partial Class Libary
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Serien"
         Me.TabPage1.UseVisualStyleBackColor = True
-        '
-        'TabPage2
-        '
-        Me.TabPage2.BackgroundImage = CType(resources.GetObject("TabPage2.BackgroundImage"), System.Drawing.Image)
-        Me.TabPage2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(887, 540)
-        Me.TabPage2.TabIndex = 1
-        Me.TabPage2.Text = "Filme"
-        Me.TabPage2.UseVisualStyleBackColor = True
         '
         'GroupBox3
         '
@@ -119,6 +129,18 @@ Partial Class Libary
         Me.GroupBox3.TabIndex = 5
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "The Big bang Theory"
+        '
+        'TextBox4
+        '
+        Me.TextBox4.BackColor = System.Drawing.Color.Black
+        Me.TextBox4.ForeColor = System.Drawing.Color.DeepSkyBlue
+        Me.TextBox4.Location = New System.Drawing.Point(30, 60)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.ReadOnly = True
+        Me.TextBox4.Size = New System.Drawing.Size(311, 22)
+        Me.TextBox4.TabIndex = 6
+        Me.TextBox4.Text = "https://raw.githubusercontent.com/EmuZONE/YouTube/master/HTML/Listing/BBT/S01/pla" &
+    "ylist01.wpl"
         '
         'TextBox7
         '
@@ -234,6 +256,29 @@ Partial Class Libary
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Lost"
         '
+        'TextBox8
+        '
+        Me.TextBox8.BackColor = System.Drawing.Color.Black
+        Me.TextBox8.ForeColor = System.Drawing.Color.DeepSkyBlue
+        Me.TextBox8.Location = New System.Drawing.Point(30, 250)
+        Me.TextBox8.Name = "TextBox8"
+        Me.TextBox8.ReadOnly = True
+        Me.TextBox8.Size = New System.Drawing.Size(311, 22)
+        Me.TextBox8.TabIndex = 7
+        Me.TextBox8.Text = "https://raw.githubusercontent.com/EmuZONE/YouTube/master/HTML/Listing/LostS04.wpl" &
+    ""
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.ForeColor = System.Drawing.Color.Black
+        Me.Label8.Location = New System.Drawing.Point(27, 230)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(63, 17)
+        Me.Label8.TabIndex = 6
+        Me.Label8.Text = "Staffel 04"
+        '
         'TextBox3
         '
         Me.TextBox3.BackColor = System.Drawing.Color.Black
@@ -303,40 +348,205 @@ Partial Class Libary
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Staffel 01"
         '
-        'TextBox4
+        'TabPage2
         '
-        Me.TextBox4.BackColor = System.Drawing.Color.Black
-        Me.TextBox4.ForeColor = System.Drawing.Color.DeepSkyBlue
-        Me.TextBox4.Location = New System.Drawing.Point(30, 60)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.ReadOnly = True
-        Me.TextBox4.Size = New System.Drawing.Size(311, 22)
-        Me.TextBox4.TabIndex = 6
-        Me.TextBox4.Text = "https://raw.githubusercontent.com/EmuZONE/YouTube/master/HTML/Listing/BBT/S01/pla" &
-    "ylist01.wpl"
+        Me.TabPage2.BackgroundImage = CType(resources.GetObject("TabPage2.BackgroundImage"), System.Drawing.Image)
+        Me.TabPage2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.TabPage2.Controls.Add(Me.GroupBox7)
+        Me.TabPage2.Controls.Add(Me.GroupBox6)
+        Me.TabPage2.Controls.Add(Me.GroupBox5)
+        Me.TabPage2.Controls.Add(Me.GroupBox4)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage2.Name = "TabPage2"
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage2.Size = New System.Drawing.Size(887, 540)
+        Me.TabPage2.TabIndex = 1
+        Me.TabPage2.Text = "Filme"
+        Me.TabPage2.UseVisualStyleBackColor = True
         '
-        'TextBox8
+        'GroupBox4
         '
-        Me.TextBox8.BackColor = System.Drawing.Color.Black
-        Me.TextBox8.ForeColor = System.Drawing.Color.DeepSkyBlue
-        Me.TextBox8.Location = New System.Drawing.Point(30, 250)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.ReadOnly = True
-        Me.TextBox8.Size = New System.Drawing.Size(311, 22)
-        Me.TextBox8.TabIndex = 7
-        Me.TextBox8.Text = "https://raw.githubusercontent.com/EmuZONE/YouTube/master/HTML/Listing/LostS04.wpl" &
+        Me.GroupBox4.BackColor = System.Drawing.Color.Transparent
+        Me.GroupBox4.Controls.Add(Me.TextBox9)
+        Me.GroupBox4.Controls.Add(Me.Label9)
+        Me.GroupBox4.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox4.ForeColor = System.Drawing.Color.DeepSkyBlue
+        Me.GroupBox4.Location = New System.Drawing.Point(25, 27)
+        Me.GroupBox4.Name = "GroupBox4"
+        Me.GroupBox4.Size = New System.Drawing.Size(374, 121)
+        Me.GroupBox4.TabIndex = 5
+        Me.GroupBox4.TabStop = False
+        Me.GroupBox4.Text = "Jean Claude van Damme Collection"
+        '
+        'TextBox9
+        '
+        Me.TextBox9.BackColor = System.Drawing.Color.Black
+        Me.TextBox9.ForeColor = System.Drawing.Color.DeepSkyBlue
+        Me.TextBox9.Location = New System.Drawing.Point(30, 60)
+        Me.TextBox9.Name = "TextBox9"
+        Me.TextBox9.ReadOnly = True
+        Me.TextBox9.Size = New System.Drawing.Size(311, 22)
+        Me.TextBox9.TabIndex = 1
+        Me.TextBox9.Text = "https://raw.githubusercontent.com/EmuZONE/YouTube/master/HTML/Listing/JCVDFilms.w" &
+    "pl"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.ForeColor = System.Drawing.Color.Black
+        Me.Label9.Location = New System.Drawing.Point(27, 40)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(33, 17)
+        Me.Label9.TabIndex = 0
+        Me.Label9.Text = "URL:"
+        '
+        'GroupBox5
+        '
+        Me.GroupBox5.BackColor = System.Drawing.Color.Transparent
+        Me.GroupBox5.Controls.Add(Me.TextBox10)
+        Me.GroupBox5.Controls.Add(Me.Label10)
+        Me.GroupBox5.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox5.ForeColor = System.Drawing.Color.DeepSkyBlue
+        Me.GroupBox5.Location = New System.Drawing.Point(25, 183)
+        Me.GroupBox5.Name = "GroupBox5"
+        Me.GroupBox5.Size = New System.Drawing.Size(374, 121)
+        Me.GroupBox5.TabIndex = 6
+        Me.GroupBox5.TabStop = False
+        Me.GroupBox5.Text = "Final Destination Collection"
+        '
+        'TextBox10
+        '
+        Me.TextBox10.BackColor = System.Drawing.Color.Black
+        Me.TextBox10.ForeColor = System.Drawing.Color.DeepSkyBlue
+        Me.TextBox10.Location = New System.Drawing.Point(30, 60)
+        Me.TextBox10.Name = "TextBox10"
+        Me.TextBox10.ReadOnly = True
+        Me.TextBox10.Size = New System.Drawing.Size(311, 22)
+        Me.TextBox10.TabIndex = 1
+        Me.TextBox10.Text = "https://raw.githubusercontent.com/EmuZONE/YouTube/master/HTML/Listing/FinalD.wpl"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.ForeColor = System.Drawing.Color.Black
+        Me.Label10.Location = New System.Drawing.Point(27, 40)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(33, 17)
+        Me.Label10.TabIndex = 0
+        Me.Label10.Text = "URL:"
+        '
+        'GroupBox6
+        '
+        Me.GroupBox6.BackColor = System.Drawing.Color.Transparent
+        Me.GroupBox6.Controls.Add(Me.TextBox11)
+        Me.GroupBox6.Controls.Add(Me.Label11)
+        Me.GroupBox6.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox6.ForeColor = System.Drawing.Color.DeepSkyBlue
+        Me.GroupBox6.Location = New System.Drawing.Point(25, 346)
+        Me.GroupBox6.Name = "GroupBox6"
+        Me.GroupBox6.Size = New System.Drawing.Size(374, 121)
+        Me.GroupBox6.TabIndex = 7
+        Me.GroupBox6.TabStop = False
+        Me.GroupBox6.Text = "Star Wars: Episode 1-8"
+        '
+        'TextBox11
+        '
+        Me.TextBox11.BackColor = System.Drawing.Color.Black
+        Me.TextBox11.ForeColor = System.Drawing.Color.DeepSkyBlue
+        Me.TextBox11.Location = New System.Drawing.Point(30, 60)
+        Me.TextBox11.Name = "TextBox11"
+        Me.TextBox11.ReadOnly = True
+        Me.TextBox11.Size = New System.Drawing.Size(311, 22)
+        Me.TextBox11.TabIndex = 1
+        Me.TextBox11.Text = "https://raw.githubusercontent.com/EmuZONE/YouTube/master/HTML/Listing/StarWars.wp" &
+    "l"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.ForeColor = System.Drawing.Color.Black
+        Me.Label11.Location = New System.Drawing.Point(27, 40)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(33, 17)
+        Me.Label11.TabIndex = 0
+        Me.Label11.Text = "URL:"
+        '
+        'GroupBox7
+        '
+        Me.GroupBox7.BackColor = System.Drawing.Color.Transparent
+        Me.GroupBox7.Controls.Add(Me.TextBox12)
+        Me.GroupBox7.Controls.Add(Me.Label12)
+        Me.GroupBox7.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox7.ForeColor = System.Drawing.Color.DeepSkyBlue
+        Me.GroupBox7.Location = New System.Drawing.Point(464, 27)
+        Me.GroupBox7.Name = "GroupBox7"
+        Me.GroupBox7.Size = New System.Drawing.Size(374, 121)
+        Me.GroupBox7.TabIndex = 8
+        Me.GroupBox7.TabStop = False
+        Me.GroupBox7.Text = "Kult-Horror Kino"
+        '
+        'TextBox12
+        '
+        Me.TextBox12.BackColor = System.Drawing.Color.Black
+        Me.TextBox12.ForeColor = System.Drawing.Color.DeepSkyBlue
+        Me.TextBox12.Location = New System.Drawing.Point(30, 60)
+        Me.TextBox12.Name = "TextBox12"
+        Me.TextBox12.ReadOnly = True
+        Me.TextBox12.Size = New System.Drawing.Size(311, 22)
+        Me.TextBox12.TabIndex = 1
+        Me.TextBox12.Text = "https://raw.githubusercontent.com/EmuZONE/YouTube/master/HTML/Listing/KultHorror." &
+    "wpl"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.ForeColor = System.Drawing.Color.Black
+        Me.Label12.Location = New System.Drawing.Point(27, 40)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(33, 17)
+        Me.Label12.TabIndex = 0
+        Me.Label12.Text = "URL:"
+        '
+        'GroupBox8
+        '
+        Me.GroupBox8.BackColor = System.Drawing.Color.Transparent
+        Me.GroupBox8.Controls.Add(Me.TextBox13)
+        Me.GroupBox8.Controls.Add(Me.Label13)
+        Me.GroupBox8.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox8.ForeColor = System.Drawing.Color.DeepSkyBlue
+        Me.GroupBox8.Location = New System.Drawing.Point(26, 381)
+        Me.GroupBox8.Name = "GroupBox8"
+        Me.GroupBox8.Size = New System.Drawing.Size(374, 142)
+        Me.GroupBox8.TabIndex = 6
+        Me.GroupBox8.TabStop = False
+        Me.GroupBox8.Text = "Sechserpack"
+        '
+        'TextBox13
+        '
+        Me.TextBox13.BackColor = System.Drawing.Color.Black
+        Me.TextBox13.ForeColor = System.Drawing.Color.DeepSkyBlue
+        Me.TextBox13.Location = New System.Drawing.Point(30, 60)
+        Me.TextBox13.Name = "TextBox13"
+        Me.TextBox13.ReadOnly = True
+        Me.TextBox13.Size = New System.Drawing.Size(311, 22)
+        Me.TextBox13.TabIndex = 1
+        Me.TextBox13.Text = "https://raw.githubusercontent.com/EmuZONE/YouTube/master/HTML/Listing/SechS01.wpl" &
     ""
         '
-        'Label8
+        'Label13
         '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.ForeColor = System.Drawing.Color.Black
-        Me.Label8.Location = New System.Drawing.Point(27, 230)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(63, 17)
-        Me.Label8.TabIndex = 6
-        Me.Label8.Text = "Staffel 04"
+        Me.Label13.AutoSize = True
+        Me.Label13.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.ForeColor = System.Drawing.Color.Black
+        Me.Label13.Location = New System.Drawing.Point(27, 40)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(63, 17)
+        Me.Label13.TabIndex = 0
+        Me.Label13.Text = "Staffel 01"
         '
         'Libary
         '
@@ -361,6 +571,17 @@ Partial Class Libary
         Me.GroupBox2.PerformLayout()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        Me.TabPage2.ResumeLayout(False)
+        Me.GroupBox4.ResumeLayout(False)
+        Me.GroupBox4.PerformLayout()
+        Me.GroupBox5.ResumeLayout(False)
+        Me.GroupBox5.PerformLayout()
+        Me.GroupBox6.ResumeLayout(False)
+        Me.GroupBox6.PerformLayout()
+        Me.GroupBox7.ResumeLayout(False)
+        Me.GroupBox7.PerformLayout()
+        Me.GroupBox8.ResumeLayout(False)
+        Me.GroupBox8.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -387,4 +608,19 @@ Partial Class Libary
     Friend WithEvents TabPage2 As TabPage
     Friend WithEvents TextBox8 As TextBox
     Friend WithEvents Label8 As Label
+    Friend WithEvents GroupBox4 As GroupBox
+    Friend WithEvents TextBox9 As TextBox
+    Friend WithEvents Label9 As Label
+    Friend WithEvents GroupBox7 As GroupBox
+    Friend WithEvents TextBox12 As TextBox
+    Friend WithEvents Label12 As Label
+    Friend WithEvents GroupBox6 As GroupBox
+    Friend WithEvents TextBox11 As TextBox
+    Friend WithEvents Label11 As Label
+    Friend WithEvents GroupBox5 As GroupBox
+    Friend WithEvents TextBox10 As TextBox
+    Friend WithEvents Label10 As Label
+    Friend WithEvents GroupBox8 As GroupBox
+    Friend WithEvents TextBox13 As TextBox
+    Friend WithEvents Label13 As Label
 End Class

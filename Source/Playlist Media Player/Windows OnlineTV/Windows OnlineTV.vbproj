@@ -187,6 +187,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="media-player-07.ico" />
+    <Content Include="MP_200x200.ico" />
+    <None Include="Resources\MenuStrip.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
