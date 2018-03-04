@@ -1,0 +1,12 @@
+c:\users\yggdraz1l\source\repos\Command Promt\Command Promt\bin\Debug\Command Promt.exe
+C:\Users\YggDraz1l\source\repos\Command Promt\Command Promt\bin\Debug\Command Promt.exe.config
+C:\Users\YggDraz1l\source\repos\Command Promt\Command Promt\bin\Debug\Command Promt.pdb
+C:\Users\YggDraz1l\source\repos\Command Promt\Command Promt\bin\Debug\Command Promt.xml
+C:\Users\YggDraz1l\source\repos\Command Promt\Command Promt\obj\Debug\Command_Promt.Command.resources
+C:\Users\YggDraz1l\source\repos\Command Promt\Command Promt\obj\Debug\Command_Promt.Resources.resources
+C:\Users\YggDraz1l\source\repos\Command Promt\Command Promt\obj\Debug\Command Promt.vbproj.GenerateResource.Cache
+C:\Users\YggDraz1l\source\repos\Command Promt\Command Promt\obj\Debug\Command Promt.vbproj.CoreCompileInputs.cache
+C:\Users\YggDraz1l\source\repos\Command Promt\Command Promt\obj\Debug\Command Promt.exe
+C:\Users\YggDraz1l\source\repos\Command Promt\Command Promt\obj\Debug\Command Promt.xml
+C:\Users\YggDraz1l\source\repos\Command Promt\Command Promt\obj\Debug\Command Promt.pdb
+C:\Users\YggDraz1l\source\repos\Command Promt\Command Promt\obj\Debug\Command Promt.vbprojResolveAssemblyReference.cache
