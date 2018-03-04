@@ -1,0 +1,22 @@
+c:\users\yggdraz1l\source\repos\Windows OnlineTV\Windows OnlineTV\bin\Debug\Interop.WMPLib.dll
+c:\users\yggdraz1l\source\repos\Windows OnlineTV\Windows OnlineTV\bin\Debug\AxInterop.WMPLib.dll
+c:\users\yggdraz1l\source\repos\Windows OnlineTV\Windows OnlineTV\obj\Debug\Interop.WMPLib.dll
+c:\users\yggdraz1l\source\repos\Windows OnlineTV\Windows OnlineTV\obj\Debug\AxInterop.WMPLib.dll
+c:\users\yggdraz1l\source\repos\Windows OnlineTV\Windows OnlineTV\obj\Debug\Windows OnlineTV.vbproj.ResolveComReference.cache
+c:\users\yggdraz1l\source\repos\Windows OnlineTV\Windows OnlineTV\obj\Debug\Windows_OnlineTV.Resources.resources
+c:\users\yggdraz1l\source\repos\Windows OnlineTV\Windows OnlineTV\obj\Debug\Windows OnlineTV.vbproj.GenerateResource.Cache
+c:\users\yggdraz1l\source\repos\Windows OnlineTV\Windows OnlineTV\obj\Debug\Windows OnlineTV.vbproj.CoreCompileInputs.cache
+c:\users\yggdraz1l\source\repos\Windows OnlineTV\Windows OnlineTV\obj\Debug\Windows OnlineTV.vbprojResolveAssemblyReference.cache
+c:\users\yggdraz1l\source\repos\Windows OnlineTV\Windows OnlineTV\obj\Debug\Windows_OnlineTV.Settings.resources
+c:\users\yggdraz1l\source\repos\Windows OnlineTV\Windows OnlineTV\bin\Debug\Playlist-MP.exe.config
+c:\users\yggdraz1l\source\repos\Windows OnlineTV\Windows OnlineTV\bin\Debug\Playlist-MP.exe
+c:\users\yggdraz1l\source\repos\Windows OnlineTV\Windows OnlineTV\bin\Debug\Playlist-MP.pdb
+c:\users\yggdraz1l\source\repos\Windows OnlineTV\Windows OnlineTV\bin\Debug\Playlist-MP.xml
+c:\users\yggdraz1l\source\repos\Windows OnlineTV\Windows OnlineTV\obj\Debug\Playlist-MP.exe
+c:\users\yggdraz1l\source\repos\Windows OnlineTV\Windows OnlineTV\obj\Debug\Playlist-MP.xml
+c:\users\yggdraz1l\source\repos\Windows OnlineTV\Windows OnlineTV\obj\Debug\Playlist-MP.pdb
+c:\users\yggdraz1l\source\repos\Windows OnlineTV\Windows OnlineTV\obj\Debug\Windows_OnlineTV.Player.resources
+C:\Users\YggDraz1l\source\repos\Windows OnlineTV\Windows OnlineTV\obj\Debug\Windows_OnlineTV.Ablage.resources
+C:\Users\YggDraz1l\source\repos\Windows OnlineTV\Windows OnlineTV\obj\Debug\Windows_OnlineTV.URLEntry.resources
+C:\Users\YggDraz1l\source\repos\Windows OnlineTV\Windows OnlineTV\obj\Debug\Windows_OnlineTV.Libary.resources
+C:\Users\YggDraz1l\source\repos\Windows OnlineTV\Windows OnlineTV\obj\Debug\Windows_OnlineTV.Info.resources
