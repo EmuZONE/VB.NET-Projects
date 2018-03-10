@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Advanced File Grabber", "Advanced File Grabber\Advanced File Grabber.vbproj", "{CF4D843C-2426-4F7C-8F22-F3D45D450D44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF4D843C-2426-4F7C-8F22-F3D45D450D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF4D843C-2426-4F7C-8F22-F3D45D450D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF4D843C-2426-4F7C-8F22-F3D45D450D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF4D843C-2426-4F7C-8F22-F3D45D450D44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51622A80-734E-4355-BDD6-977E34193D84}
+	EndGlobalSection
+EndGlobal
