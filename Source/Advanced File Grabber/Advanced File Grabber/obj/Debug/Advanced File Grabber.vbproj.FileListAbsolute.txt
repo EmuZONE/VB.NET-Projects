@@ -1,0 +1,15 @@
+C:\Users\YggDraz1l\source\repos\Advanced File Grabber\Advanced File Grabber\bin\Debug\Advanced File Grabber.exe.config
+C:\Users\YggDraz1l\source\repos\Advanced File Grabber\Advanced File Grabber\bin\Debug\Advanced File Grabber.exe
+C:\Users\YggDraz1l\source\repos\Advanced File Grabber\Advanced File Grabber\bin\Debug\Advanced File Grabber.pdb
+C:\Users\YggDraz1l\source\repos\Advanced File Grabber\Advanced File Grabber\bin\Debug\Advanced File Grabber.xml
+C:\Users\YggDraz1l\source\repos\Advanced File Grabber\Advanced File Grabber\obj\Debug\Advanced File Grabber.vbprojResolveAssemblyReference.cache
+C:\Users\YggDraz1l\source\repos\Advanced File Grabber\Advanced File Grabber\obj\Debug\Advanced_File_Grabber.Clock.resources
+C:\Users\YggDraz1l\source\repos\Advanced File Grabber\Advanced File Grabber\obj\Debug\Advanced_File_Grabber.Form1.resources
+C:\Users\YggDraz1l\source\repos\Advanced File Grabber\Advanced File Grabber\obj\Debug\Advanced_File_Grabber.Resources.resources
+C:\Users\YggDraz1l\source\repos\Advanced File Grabber\Advanced File Grabber\obj\Debug\Advanced File Grabber.vbproj.GenerateResource.Cache
+C:\Users\YggDraz1l\source\repos\Advanced File Grabber\Advanced File Grabber\obj\Debug\Advanced File Grabber.vbproj.CoreCompileInputs.cache
+C:\Users\YggDraz1l\source\repos\Advanced File Grabber\Advanced File Grabber\obj\Debug\Advanced File Grabber.exe
+C:\Users\YggDraz1l\source\repos\Advanced File Grabber\Advanced File Grabber\obj\Debug\Advanced File Grabber.xml
+C:\Users\YggDraz1l\source\repos\Advanced File Grabber\Advanced File Grabber\obj\Debug\Advanced File Grabber.pdb
+C:\Users\YggDraz1l\source\repos\Advanced File Grabber\Advanced File Grabber\obj\Debug\Advanced_File_Grabber.URLEntry.resources
+C:\Users\YggDraz1l\source\repos\Advanced File Grabber\Advanced File Grabber\obj\Debug\Advanced_File_Grabber.URLEntry2.resources
