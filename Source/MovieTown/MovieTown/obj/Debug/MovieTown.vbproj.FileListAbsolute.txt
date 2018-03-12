@@ -1,0 +1,16 @@
+C:\Users\YggDraz1l\source\repos\MovieTown\MovieTown\bin\Debug\MovieTown.exe.config
+C:\Users\YggDraz1l\source\repos\MovieTown\MovieTown\bin\Debug\MovieTown.exe
+C:\Users\YggDraz1l\source\repos\MovieTown\MovieTown\bin\Debug\MovieTown.pdb
+C:\Users\YggDraz1l\source\repos\MovieTown\MovieTown\bin\Debug\MovieTown.xml
+C:\Users\YggDraz1l\source\repos\MovieTown\MovieTown\bin\Debug\Interop.AXVLC.dll
+C:\Users\YggDraz1l\source\repos\MovieTown\MovieTown\bin\Debug\AxInterop.AXVLC.dll
+C:\Users\YggDraz1l\source\repos\MovieTown\MovieTown\obj\Debug\Interop.AXVLC.dll
+C:\Users\YggDraz1l\source\repos\MovieTown\MovieTown\obj\Debug\AxInterop.AXVLC.dll
+C:\Users\YggDraz1l\source\repos\MovieTown\MovieTown\obj\Debug\MovieTown.vbproj.ResolveComReference.cache
+C:\Users\YggDraz1l\source\repos\MovieTown\MovieTown\obj\Debug\MovieTown.Form1.resources
+C:\Users\YggDraz1l\source\repos\MovieTown\MovieTown\obj\Debug\MovieTown.Resources.resources
+C:\Users\YggDraz1l\source\repos\MovieTown\MovieTown\obj\Debug\MovieTown.vbproj.GenerateResource.Cache
+C:\Users\YggDraz1l\source\repos\MovieTown\MovieTown\obj\Debug\MovieTown.vbproj.CoreCompileInputs.cache
+C:\Users\YggDraz1l\source\repos\MovieTown\MovieTown\obj\Debug\MovieTown.exe
+C:\Users\YggDraz1l\source\repos\MovieTown\MovieTown\obj\Debug\MovieTown.xml
+C:\Users\YggDraz1l\source\repos\MovieTown\MovieTown\obj\Debug\MovieTown.pdb
