@@ -14,3 +14,8 @@ C:\Users\YggDraz1l\source\repos\MovieTown\MovieTown\obj\Debug\MovieTown.vbproj.C
 C:\Users\YggDraz1l\source\repos\MovieTown\MovieTown\obj\Debug\MovieTown.exe
 C:\Users\YggDraz1l\source\repos\MovieTown\MovieTown\obj\Debug\MovieTown.xml
 C:\Users\YggDraz1l\source\repos\MovieTown\MovieTown\obj\Debug\MovieTown.pdb
+C:\Users\YggDraz1l\source\repos\MovieTown\MovieTown\bin\Debug\Interop.WMPLib.dll
+C:\Users\YggDraz1l\source\repos\MovieTown\MovieTown\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\YggDraz1l\source\repos\MovieTown\MovieTown\obj\Debug\MovieTown.vbprojResolveAssemblyReference.cache
+C:\Users\YggDraz1l\source\repos\MovieTown\MovieTown\obj\Debug\Interop.WMPLib.dll
+C:\Users\YggDraz1l\source\repos\MovieTown\MovieTown\obj\Debug\AxInterop.WMPLib.dll

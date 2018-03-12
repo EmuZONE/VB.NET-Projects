@@ -261,4 +261,50 @@
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         AxVLCPlugin21.playlist.prev()
     End Sub
+
+    Private Sub PlayerBtn2_Click(sender As Object, e As EventArgs) Handles PlayerBtn2.Click
+        PlayerBtn2.Visible = False
+        PlayerBtn1.Visible = True
+        PlayerPic2.Visible = True
+        PlayerPic1.Visible = False
+        VLCPnl.Visible = True
+        WMPPnl.Visible = False
+    End Sub
+
+    Private Sub PlayerBtn1_Click(sender As Object, e As EventArgs) Handles PlayerBtn1.Click
+        PlayerBtn1.Visible = False
+        PlayerBtn2.Visible = True
+        PlayerPic1.Visible = True
+        PlayerPic2.Visible = False
+        VLCPnl.Visible = False
+        WMPPnl.Visible = True
+    End Sub
+
+    Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
+        ActionPnl.Visible = True
+        ComedyPnl.Visible = False
+        SciFiPnl.Visible = False
+        HorrorPnl.Visible = False
+    End Sub
+
+    Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
+        ComedyPnl.Visible = True
+        ActionPnl.Visible = False
+        SciFiPnl.Visible = False
+        HorrorPnl.Visible = False
+    End Sub
+
+    Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
+        ActionPnl.Visible = False
+        ComedyPnl.Visible = False
+        SciFiPnl.Visible = True
+        HorrorPnl.Visible = False
+    End Sub
+
+    Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
+        ActionPnl.Visible = False
+        ComedyPnl.Visible = False
+        SciFiPnl.Visible = False
+        HorrorPnl.Visible = True
+    End Sub
 End Class
