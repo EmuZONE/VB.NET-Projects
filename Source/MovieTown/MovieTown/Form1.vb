@@ -8,6 +8,8 @@
     Private Sub PlayBtn_Click(sender As Object, e As EventArgs) Handles PlayBtn.Click
         PauseBtn.Visible = True
         PlayBtn.Visible = True
+        BufferBarOff.Visible = False
+        BufferBarOn.Visible = True
     End Sub
 
     Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
@@ -903,6 +905,8 @@
         PauseBtn.Visible = True
         AxVLCPlugin21.playlist.next()
         AxVLCPlugin21.playlist.play()
+        BufferBarOff.Visible = False
+        BufferBarOn.Visible = True
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
@@ -919,6 +923,8 @@
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         AxVLCPlugin21.playlist.stop()
+        BufferBarOff.Visible = True
+        BufferBarOn.Visible = False
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click

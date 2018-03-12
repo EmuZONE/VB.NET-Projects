@@ -93,6 +93,8 @@ Partial Class Form1
         Me.VolOffBtn = New System.Windows.Forms.Button()
         Me.TrackBar2 = New System.Windows.Forms.TrackBar()
         Me.PosOffBtn = New System.Windows.Forms.Button()
+        Me.BufferBarOff = New System.Windows.Forms.ProgressBar()
+        Me.BufferBarOn = New System.Windows.Forms.ProgressBar()
         Me.VLCPnl.SuspendLayout()
         CType(Me.AxVLCPlugin21, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
@@ -905,6 +907,22 @@ Partial Class Form1
         Me.PosOffBtn.UseVisualStyleBackColor = True
         Me.PosOffBtn.Visible = False
         '
+        'BufferBarOff
+        '
+        Me.BufferBarOff.Location = New System.Drawing.Point(333, 237)
+        Me.BufferBarOff.Name = "BufferBarOff"
+        Me.BufferBarOff.Size = New System.Drawing.Size(251, 10)
+        Me.BufferBarOff.TabIndex = 23
+        '
+        'BufferBarOn
+        '
+        Me.BufferBarOn.Location = New System.Drawing.Point(333, 237)
+        Me.BufferBarOn.Name = "BufferBarOn"
+        Me.BufferBarOn.Size = New System.Drawing.Size(251, 10)
+        Me.BufferBarOn.Style = System.Windows.Forms.ProgressBarStyle.Marquee
+        Me.BufferBarOn.TabIndex = 24
+        Me.BufferBarOn.Visible = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -912,6 +930,8 @@ Partial Class Form1
         Me.BackgroundImage = Global.MovieTown.My.Resources.Resources.Silver_Matt
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(634, 426)
+        Me.Controls.Add(Me.BufferBarOn)
+        Me.Controls.Add(Me.BufferBarOff)
         Me.Controls.Add(Me.VolPnl)
         Me.Controls.Add(Me.Panel5)
         Me.Controls.Add(Me.ActionPnl)
@@ -1028,4 +1048,6 @@ Partial Class Form1
     Friend WithEvents VolOffBtn As Button
     Friend WithEvents TrackBar2 As TrackBar
     Friend WithEvents PosOffBtn As Button
+    Friend WithEvents BufferBarOff As ProgressBar
+    Friend WithEvents BufferBarOn As ProgressBar
 End Class
