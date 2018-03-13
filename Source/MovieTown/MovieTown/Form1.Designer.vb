@@ -37,6 +37,10 @@ Partial Class Form1
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.FantasyList = New System.Windows.Forms.ComboBox()
+        Me.SciFiList = New System.Windows.Forms.ComboBox()
+        Me.HorrorList = New System.Windows.Forms.ComboBox()
+        Me.ComedyList = New System.Windows.Forms.ComboBox()
         Me.ActionList = New System.Windows.Forms.ComboBox()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Button9 = New System.Windows.Forms.Button()
@@ -54,47 +58,52 @@ Partial Class Form1
         Me.Button11 = New System.Windows.Forms.Button()
         Me.Button12 = New System.Windows.Forms.Button()
         Me.Button13 = New System.Windows.Forms.Button()
-        Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.ActionPnl = New System.Windows.Forms.Panel()
-        Me.ComedyList = New System.Windows.Forms.ComboBox()
-        Me.HorrorList = New System.Windows.Forms.ComboBox()
-        Me.SciFiList = New System.Windows.Forms.ComboBox()
-        Me.Panel5 = New System.Windows.Forms.Panel()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label10 = New System.Windows.Forms.Label()
         Me.Button14 = New System.Windows.Forms.Button()
         Me.PosOnBtn = New System.Windows.Forms.Button()
         Me.VolOnBtn = New System.Windows.Forms.Button()
         Me.Button17 = New System.Windows.Forms.Button()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.Label14 = New System.Windows.Forms.Label()
         Me.Button18 = New System.Windows.Forms.Button()
         Me.Button19 = New System.Windows.Forms.Button()
         Me.Button20 = New System.Windows.Forms.Button()
         Me.Button21 = New System.Windows.Forms.Button()
-        Me.ActionPic1 = New System.Windows.Forms.PictureBox()
-        Me.ComedyPic1 = New System.Windows.Forms.PictureBox()
-        Me.SciFiPic2 = New System.Windows.Forms.PictureBox()
-        Me.HorrorPic1 = New System.Windows.Forms.PictureBox()
-        Me.HorrorPic2 = New System.Windows.Forms.PictureBox()
-        Me.ComedyPic2 = New System.Windows.Forms.PictureBox()
-        Me.ActionPic2 = New System.Windows.Forms.PictureBox()
-        Me.SciFiPic1 = New System.Windows.Forms.PictureBox()
-        Me.VolPnl = New System.Windows.Forms.Panel()
-        Me.TrackBar1 = New System.Windows.Forms.TrackBar()
         Me.VolOffBtn = New System.Windows.Forms.Button()
-        Me.TrackBar2 = New System.Windows.Forms.TrackBar()
         Me.PosOffBtn = New System.Windows.Forms.Button()
+        Me.MenuOff = New System.Windows.Forms.Button()
+        Me.Button15 = New System.Windows.Forms.Button()
+        Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.FantasyPic2 = New System.Windows.Forms.PictureBox()
+        Me.FantasyPic1 = New System.Windows.Forms.PictureBox()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.ActionPic2 = New System.Windows.Forms.PictureBox()
+        Me.ComedyPic2 = New System.Windows.Forms.PictureBox()
+        Me.HorrorPic2 = New System.Windows.Forms.PictureBox()
+        Me.HorrorPic1 = New System.Windows.Forms.PictureBox()
+        Me.SciFiPic2 = New System.Windows.Forms.PictureBox()
+        Me.ComedyPic1 = New System.Windows.Forms.PictureBox()
+        Me.ActionPic1 = New System.Windows.Forms.PictureBox()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.SciFiPic1 = New System.Windows.Forms.PictureBox()
+        Me.ActionPnl = New System.Windows.Forms.Panel()
+        Me.Panel5 = New System.Windows.Forms.Panel()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.VolPnl = New System.Windows.Forms.Panel()
+        Me.TrackBar2 = New System.Windows.Forms.TrackBar()
+        Me.TrackBar1 = New System.Windows.Forms.TrackBar()
         Me.BufferBarOff = New System.Windows.Forms.ProgressBar()
         Me.BufferBarOn = New System.Windows.Forms.ProgressBar()
+        Me.MenuPnlHider = New System.Windows.Forms.Panel()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.MenuOn = New System.Windows.Forms.Button()
         Me.VLCPnl.SuspendLayout()
         CType(Me.AxVLCPlugin21, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
@@ -105,19 +114,23 @@ Partial Class Form1
         CType(Me.PlayerPic2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.Panel4.SuspendLayout()
+        CType(Me.FantasyPic2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.FantasyPic1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ActionPic2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ComedyPic2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.HorrorPic2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.HorrorPic1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.SciFiPic2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ComedyPic1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ActionPic1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.SciFiPic1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.ActionPnl.SuspendLayout()
         Me.Panel5.SuspendLayout()
-        CType(Me.ActionPic1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ComedyPic1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.SciFiPic2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.HorrorPic1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.HorrorPic2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ComedyPic2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ActionPic2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.SciFiPic1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.VolPnl.SuspendLayout()
-        CType(Me.TrackBar1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TrackBar2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TrackBar1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.MenuPnlHider.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'VLCPnl
@@ -253,6 +266,7 @@ Partial Class Form1
         '
         Me.Panel3.BackColor = System.Drawing.Color.Transparent
         Me.Panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel3.Controls.Add(Me.FantasyList)
         Me.Panel3.Controls.Add(Me.SciFiList)
         Me.Panel3.Controls.Add(Me.HorrorList)
         Me.Panel3.Controls.Add(Me.ComedyList)
@@ -262,12 +276,57 @@ Partial Class Form1
         Me.Panel3.Size = New System.Drawing.Size(256, 26)
         Me.Panel3.TabIndex = 2
         '
+        'FantasyList
+        '
+        Me.FantasyList.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.FantasyList.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.FantasyList.FormattingEnabled = True
+        Me.FantasyList.Items.AddRange(New Object() {"Herr der Ringe: Die Gefährten", "Herr der Ringe: Die zwei Türme", "Herr der Ringe: Die Rückkehr des Königs", "Der Hobbit: Eine unerwartete Reise", "Der Hobbit: Smaugs Einöde", "Der Hobbit: Die Schlacht der fünf Heere", "Die Unendliche Geschichte", "Die Unendliche Geschichte 2", "Highlander: Es kann nur einen geben", "Indiana Jones: Jäger d. v. Schatzes", "Indiana Jones: Der Tempel des Todes", "Indiana Jones: Der letzte Kreuzzug", "Indiana Jones: Königreich d. Kristallschädels"})
+        Me.FantasyList.Location = New System.Drawing.Point(-2, -2)
+        Me.FantasyList.Name = "FantasyList"
+        Me.FantasyList.Size = New System.Drawing.Size(256, 25)
+        Me.FantasyList.TabIndex = 28
+        Me.FantasyList.Visible = False
+        '
+        'SciFiList
+        '
+        Me.SciFiList.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.SciFiList.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SciFiList.FormattingEnabled = True
+        Me.SciFiList.Items.AddRange(New Object() {"Lost in Space", "Event Horizon", "SW: Episode 1 - Die dunkle Bedrohung", "SW: Episode 2 - Angriff der Klonkrieger", "SW: Episode 3 - Die Rache der Sith", "SW: Episode 4 - Eine neue Hoffnung", "SW: Episode 5 - Das Imperium schlägt zurück", "SW: Episode 6 - Die Rückkehr der Jedi-Ritter", "SW: Episode 7 - Das erwachen der Macht", "SW: Episode 8 - Die letzten Jedi"})
+        Me.SciFiList.Location = New System.Drawing.Point(-2, -2)
+        Me.SciFiList.Name = "SciFiList"
+        Me.SciFiList.Size = New System.Drawing.Size(256, 25)
+        Me.SciFiList.TabIndex = 3
+        '
+        'HorrorList
+        '
+        Me.HorrorList.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.HorrorList.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HorrorList.FormattingEnabled = True
+        Me.HorrorList.Items.AddRange(New Object() {"Tanz der Teufel", "Tanz der Teufel 2", "Tanz der Teufel 3", "The Evil Dead", "Braindead", "Final Destination", "Final Destination 2", "Final Destination 3", "Final Destination 4", "Final Destination 5", "Maniac Cop", "Maniac Cop 2", "Maniac Cop 3", "Halloween", "Halloween 2", "Halloween 3", "Halloween 4", "Halloween 6", "Halloween 7", "Halloween 8", "Halloween H20", "Halloween Resurrection", "Halloween Remake"})
+        Me.HorrorList.Location = New System.Drawing.Point(-2, -2)
+        Me.HorrorList.Name = "HorrorList"
+        Me.HorrorList.Size = New System.Drawing.Size(256, 25)
+        Me.HorrorList.TabIndex = 3
+        '
+        'ComedyList
+        '
+        Me.ComedyList.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ComedyList.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComedyList.FormattingEnabled = True
+        Me.ComedyList.Items.AddRange(New Object() {"Die Supernasen", "Zwei Nasen tanken Super", "Zärtliche Chaoten", "Zärtliche Chaoten 2", "Piratensender Powerplay", "Die Einsteiger"})
+        Me.ComedyList.Location = New System.Drawing.Point(-3, -2)
+        Me.ComedyList.Name = "ComedyList"
+        Me.ComedyList.Size = New System.Drawing.Size(256, 25)
+        Me.ComedyList.TabIndex = 3
+        '
         'ActionList
         '
         Me.ActionList.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ActionList.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ActionList.FormattingEnabled = True
-        Me.ActionList.Items.AddRange(New Object() {"Der Supercop", "Maniac Cop", "Maniac Cop 2", "Maniac Cop 3", "The Day After"})
+        Me.ActionList.Items.AddRange(New Object() {"Nach eigenen Regeln", "Rookie - Der Anfänger", "True Lies", "From Dusk Till Dawn", "Cliffhanger", "Tango & Cash", "Last Action Hero", "Lethal Weapon", "Lethal Weapon 2", "Lethal Weapon 3", "Lethal Weapon 4", "Red Heat", "Rambo", "Rambo 2", "Rambo 3", "Rambo 4", "Der City Hai", "Stirb Langsam", "Stirb Langsam 2", "Stirb Langsam 3", "Stirb Langsam 4", "Stirb Langsam 5"})
         Me.ActionList.Location = New System.Drawing.Point(-2, -2)
         Me.ActionList.Name = "ActionList"
         Me.ActionList.Size = New System.Drawing.Size(256, 25)
@@ -396,7 +455,7 @@ Partial Class Form1
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Controls.Add(Me.PlayerBtn2)
         Me.Panel1.Controls.Add(Me.PlayerPic1)
-        Me.Panel1.Location = New System.Drawing.Point(468, 302)
+        Me.Panel1.Location = New System.Drawing.Point(479, 302)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(143, 70)
         Me.Panel1.TabIndex = 1
@@ -449,191 +508,6 @@ Partial Class Form1
         Me.ToolTip1.SetToolTip(Me.Button13, "Player wechseln")
         Me.Button13.UseVisualStyleBackColor = True
         '
-        'Panel4
-        '
-        Me.Panel4.BackColor = System.Drawing.Color.Transparent
-        Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel4.Controls.Add(Me.ActionPic2)
-        Me.Panel4.Controls.Add(Me.ComedyPic2)
-        Me.Panel4.Controls.Add(Me.HorrorPic2)
-        Me.Panel4.Controls.Add(Me.HorrorPic1)
-        Me.Panel4.Controls.Add(Me.SciFiPic2)
-        Me.Panel4.Controls.Add(Me.ComedyPic1)
-        Me.Panel4.Controls.Add(Me.ActionPic1)
-        Me.Panel4.Controls.Add(Me.Label6)
-        Me.Panel4.Controls.Add(Me.Label5)
-        Me.Panel4.Controls.Add(Me.Label4)
-        Me.Panel4.Controls.Add(Me.Label3)
-        Me.Panel4.Controls.Add(Me.Button13)
-        Me.Panel4.Controls.Add(Me.Button12)
-        Me.Panel4.Controls.Add(Me.Button11)
-        Me.Panel4.Controls.Add(Me.Button10)
-        Me.Panel4.Controls.Add(Me.SciFiPic1)
-        Me.Panel4.Location = New System.Drawing.Point(12, 122)
-        Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(124, 105)
-        Me.Panel4.TabIndex = 6
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.BackColor = System.Drawing.Color.Transparent
-        Me.Label6.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(63, 74)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(40, 16)
-        Me.Label6.TabIndex = 14
-        Me.Label6.Text = "Horror"
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.BackColor = System.Drawing.Color.Transparent
-        Me.Label5.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(63, 53)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(33, 16)
-        Me.Label5.TabIndex = 13
-        Me.Label5.Text = "SciFi"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(63, 32)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(47, 16)
-        Me.Label4.TabIndex = 12
-        Me.Label4.Text = "Comedy"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(63, 12)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(40, 16)
-        Me.Label3.TabIndex = 11
-        Me.Label3.Text = "Action"
-        '
-        'ActionPnl
-        '
-        Me.ActionPnl.BackColor = System.Drawing.Color.Transparent
-        Me.ActionPnl.BackgroundImage = CType(resources.GetObject("ActionPnl.BackgroundImage"), System.Drawing.Image)
-        Me.ActionPnl.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ActionPnl.Controls.Add(Me.Panel3)
-        Me.ActionPnl.Controls.Add(Me.Button8)
-        Me.ActionPnl.Location = New System.Drawing.Point(12, 12)
-        Me.ActionPnl.Name = "ActionPnl"
-        Me.ActionPnl.Size = New System.Drawing.Size(282, 85)
-        Me.ActionPnl.TabIndex = 7
-        '
-        'ComedyList
-        '
-        Me.ComedyList.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComedyList.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComedyList.FormattingEnabled = True
-        Me.ComedyList.Items.AddRange(New Object() {"Die Supernasen", "Zwei Nasen tanken Super", "Zärtliche Chaoten", "Zärtliche Chaoten 2", "Piratensender Powerplay", "Die Einsteiger"})
-        Me.ComedyList.Location = New System.Drawing.Point(-2, -2)
-        Me.ComedyList.Name = "ComedyList"
-        Me.ComedyList.Size = New System.Drawing.Size(256, 25)
-        Me.ComedyList.TabIndex = 3
-        '
-        'HorrorList
-        '
-        Me.HorrorList.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.HorrorList.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.HorrorList.FormattingEnabled = True
-        Me.HorrorList.Items.AddRange(New Object() {"Tanz der Teufel", "Tanz der Teufel 2", "Tanz der Teufel 3", "The Evil Dead", "Braindead"})
-        Me.HorrorList.Location = New System.Drawing.Point(-2, -2)
-        Me.HorrorList.Name = "HorrorList"
-        Me.HorrorList.Size = New System.Drawing.Size(256, 25)
-        Me.HorrorList.TabIndex = 3
-        '
-        'SciFiList
-        '
-        Me.SciFiList.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.SciFiList.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SciFiList.FormattingEnabled = True
-        Me.SciFiList.Items.AddRange(New Object() {"Lost in Space", "Event Horizon"})
-        Me.SciFiList.Location = New System.Drawing.Point(-2, -2)
-        Me.SciFiList.Name = "SciFiList"
-        Me.SciFiList.Size = New System.Drawing.Size(256, 25)
-        Me.SciFiList.TabIndex = 3
-        '
-        'Panel5
-        '
-        Me.Panel5.BackColor = System.Drawing.Color.Transparent
-        Me.Panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel5.Controls.Add(Me.PosOffBtn)
-        Me.Panel5.Controls.Add(Me.VolOffBtn)
-        Me.Panel5.Controls.Add(Me.Label11)
-        Me.Panel5.Controls.Add(Me.Label12)
-        Me.Panel5.Controls.Add(Me.Label13)
-        Me.Panel5.Controls.Add(Me.Label14)
-        Me.Panel5.Controls.Add(Me.Button18)
-        Me.Panel5.Controls.Add(Me.Button19)
-        Me.Panel5.Controls.Add(Me.Button20)
-        Me.Panel5.Controls.Add(Me.Button21)
-        Me.Panel5.Controls.Add(Me.Label7)
-        Me.Panel5.Controls.Add(Me.Label8)
-        Me.Panel5.Controls.Add(Me.Label9)
-        Me.Panel5.Controls.Add(Me.Label10)
-        Me.Panel5.Controls.Add(Me.Button14)
-        Me.Panel5.Controls.Add(Me.PosOnBtn)
-        Me.Panel5.Controls.Add(Me.VolOnBtn)
-        Me.Panel5.Controls.Add(Me.Button17)
-        Me.Panel5.Location = New System.Drawing.Point(12, 277)
-        Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(208, 105)
-        Me.Panel5.TabIndex = 8
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.BackColor = System.Drawing.Color.Transparent
-        Me.Label7.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(43, 74)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(54, 16)
-        Me.Label7.TabIndex = 14
-        Me.Label7.Text = "Buffering"
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.BackColor = System.Drawing.Color.Transparent
-        Me.Label8.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(43, 53)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(48, 16)
-        Me.Label8.TabIndex = 13
-        Me.Label8.Text = "Position"
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.BackColor = System.Drawing.Color.Transparent
-        Me.Label9.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(43, 32)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(25, 16)
-        Me.Label9.TabIndex = 12
-        Me.Label9.Text = "Ton"
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.BackColor = System.Drawing.Color.Transparent
-        Me.Label10.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(43, 12)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(27, 16)
-        Me.Label10.TabIndex = 11
-        Me.Label10.Text = "Bild"
-        '
         'Button14
         '
         Me.Button14.BackgroundImage = CType(resources.GetObject("Button14.BackgroundImage"), System.Drawing.Image)
@@ -681,50 +555,6 @@ Partial Class Form1
         Me.Button17.TabIndex = 7
         Me.ToolTip1.SetToolTip(Me.Button17, "Player wechseln")
         Me.Button17.UseVisualStyleBackColor = True
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.BackColor = System.Drawing.Color.Transparent
-        Me.Label11.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(131, 74)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(62, 16)
-        Me.Label11.TabIndex = 22
-        Me.Label11.Text = "Bandbreite"
-        '
-        'Label12
-        '
-        Me.Label12.AutoSize = True
-        Me.Label12.BackColor = System.Drawing.Color.Transparent
-        Me.Label12.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(131, 53)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(32, 16)
-        Me.Label12.TabIndex = 21
-        Me.Label12.Text = "Infos"
-        '
-        'Label13
-        '
-        Me.Label13.AutoSize = True
-        Me.Label13.BackColor = System.Drawing.Color.Transparent
-        Me.Label13.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(131, 32)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(58, 16)
-        Me.Label13.TabIndex = 20
-        Me.Label13.Text = "Aufnahme"
-        '
-        'Label14
-        '
-        Me.Label14.AutoSize = True
-        Me.Label14.BackColor = System.Drawing.Color.Transparent
-        Me.Label14.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(131, 12)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(64, 16)
-        Me.Label14.TabIndex = 19
-        Me.Label14.Text = "Screenshot"
         '
         'Button18
         '
@@ -774,103 +604,6 @@ Partial Class Form1
         Me.ToolTip1.SetToolTip(Me.Button21, "Player wechseln")
         Me.Button21.UseVisualStyleBackColor = True
         '
-        'ActionPic1
-        '
-        Me.ActionPic1.BackColor = System.Drawing.Color.Silver
-        Me.ActionPic1.Location = New System.Drawing.Point(16, 12)
-        Me.ActionPic1.Name = "ActionPic1"
-        Me.ActionPic1.Size = New System.Drawing.Size(10, 10)
-        Me.ActionPic1.TabIndex = 10
-        Me.ActionPic1.TabStop = False
-        '
-        'ComedyPic1
-        '
-        Me.ComedyPic1.BackColor = System.Drawing.Color.Silver
-        Me.ComedyPic1.Location = New System.Drawing.Point(16, 33)
-        Me.ComedyPic1.Name = "ComedyPic1"
-        Me.ComedyPic1.Size = New System.Drawing.Size(10, 10)
-        Me.ComedyPic1.TabIndex = 15
-        Me.ComedyPic1.TabStop = False
-        '
-        'SciFiPic2
-        '
-        Me.SciFiPic2.BackColor = System.Drawing.SystemColors.Highlight
-        Me.SciFiPic2.Location = New System.Drawing.Point(16, 54)
-        Me.SciFiPic2.Name = "SciFiPic2"
-        Me.SciFiPic2.Size = New System.Drawing.Size(10, 10)
-        Me.SciFiPic2.TabIndex = 16
-        Me.SciFiPic2.TabStop = False
-        '
-        'HorrorPic1
-        '
-        Me.HorrorPic1.BackColor = System.Drawing.Color.Silver
-        Me.HorrorPic1.Location = New System.Drawing.Point(16, 75)
-        Me.HorrorPic1.Name = "HorrorPic1"
-        Me.HorrorPic1.Size = New System.Drawing.Size(10, 10)
-        Me.HorrorPic1.TabIndex = 17
-        Me.HorrorPic1.TabStop = False
-        '
-        'HorrorPic2
-        '
-        Me.HorrorPic2.BackColor = System.Drawing.SystemColors.Highlight
-        Me.HorrorPic2.Location = New System.Drawing.Point(16, 75)
-        Me.HorrorPic2.Name = "HorrorPic2"
-        Me.HorrorPic2.Size = New System.Drawing.Size(10, 10)
-        Me.HorrorPic2.TabIndex = 18
-        Me.HorrorPic2.TabStop = False
-        Me.HorrorPic2.Visible = False
-        '
-        'ComedyPic2
-        '
-        Me.ComedyPic2.BackColor = System.Drawing.SystemColors.Highlight
-        Me.ComedyPic2.Location = New System.Drawing.Point(16, 33)
-        Me.ComedyPic2.Name = "ComedyPic2"
-        Me.ComedyPic2.Size = New System.Drawing.Size(10, 10)
-        Me.ComedyPic2.TabIndex = 19
-        Me.ComedyPic2.TabStop = False
-        Me.ComedyPic2.Visible = False
-        '
-        'ActionPic2
-        '
-        Me.ActionPic2.BackColor = System.Drawing.SystemColors.Highlight
-        Me.ActionPic2.Location = New System.Drawing.Point(16, 12)
-        Me.ActionPic2.Name = "ActionPic2"
-        Me.ActionPic2.Size = New System.Drawing.Size(10, 10)
-        Me.ActionPic2.TabIndex = 19
-        Me.ActionPic2.TabStop = False
-        Me.ActionPic2.Visible = False
-        '
-        'SciFiPic1
-        '
-        Me.SciFiPic1.BackColor = System.Drawing.Color.Silver
-        Me.SciFiPic1.Location = New System.Drawing.Point(16, 54)
-        Me.SciFiPic1.Name = "SciFiPic1"
-        Me.SciFiPic1.Size = New System.Drawing.Size(10, 10)
-        Me.SciFiPic1.TabIndex = 19
-        Me.SciFiPic1.TabStop = False
-        '
-        'VolPnl
-        '
-        Me.VolPnl.BackColor = System.Drawing.Color.Transparent
-        Me.VolPnl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.VolPnl.Controls.Add(Me.TrackBar2)
-        Me.VolPnl.Controls.Add(Me.TrackBar1)
-        Me.VolPnl.Location = New System.Drawing.Point(236, 302)
-        Me.VolPnl.Name = "VolPnl"
-        Me.VolPnl.Size = New System.Drawing.Size(217, 50)
-        Me.VolPnl.TabIndex = 9
-        Me.VolPnl.Visible = False
-        '
-        'TrackBar1
-        '
-        Me.TrackBar1.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.TrackBar1.LargeChange = 2
-        Me.TrackBar1.Location = New System.Drawing.Point(0, 0)
-        Me.TrackBar1.Name = "TrackBar1"
-        Me.TrackBar1.Size = New System.Drawing.Size(215, 45)
-        Me.TrackBar1.TabIndex = 0
-        Me.TrackBar1.Value = 10
-        '
         'VolOffBtn
         '
         Me.VolOffBtn.BackgroundImage = CType(resources.GetObject("VolOffBtn.BackgroundImage"), System.Drawing.Image)
@@ -884,16 +617,6 @@ Partial Class Form1
         Me.VolOffBtn.UseVisualStyleBackColor = True
         Me.VolOffBtn.Visible = False
         '
-        'TrackBar2
-        '
-        Me.TrackBar2.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.TrackBar2.LargeChange = 2
-        Me.TrackBar2.Location = New System.Drawing.Point(-2, -1)
-        Me.TrackBar2.Name = "TrackBar2"
-        Me.TrackBar2.Size = New System.Drawing.Size(215, 45)
-        Me.TrackBar2.TabIndex = 10
-        Me.TrackBar2.Visible = False
-        '
         'PosOffBtn
         '
         Me.PosOffBtn.BackgroundImage = CType(resources.GetObject("PosOffBtn.BackgroundImage"), System.Drawing.Image)
@@ -906,6 +629,368 @@ Partial Class Form1
         Me.ToolTip1.SetToolTip(Me.PosOffBtn, "Ein / Aus")
         Me.PosOffBtn.UseVisualStyleBackColor = True
         Me.PosOffBtn.Visible = False
+        '
+        'MenuOff
+        '
+        Me.MenuOff.BackgroundImage = CType(resources.GetObject("MenuOff.BackgroundImage"), System.Drawing.Image)
+        Me.MenuOff.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.MenuOff.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.MenuOff.Location = New System.Drawing.Point(9, 248)
+        Me.MenuOff.Name = "MenuOff"
+        Me.MenuOff.Size = New System.Drawing.Size(25, 15)
+        Me.MenuOff.TabIndex = 27
+        Me.ToolTip1.SetToolTip(Me.MenuOff, "Player wechseln")
+        Me.MenuOff.UseVisualStyleBackColor = True
+        Me.MenuOff.Visible = False
+        '
+        'Button15
+        '
+        Me.Button15.BackgroundImage = CType(resources.GetObject("Button15.BackgroundImage"), System.Drawing.Image)
+        Me.Button15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button15.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button15.Location = New System.Drawing.Point(32, 96)
+        Me.Button15.Name = "Button15"
+        Me.Button15.Size = New System.Drawing.Size(25, 15)
+        Me.Button15.TabIndex = 20
+        Me.ToolTip1.SetToolTip(Me.Button15, "Player wechseln")
+        Me.Button15.UseVisualStyleBackColor = True
+        '
+        'Panel4
+        '
+        Me.Panel4.BackColor = System.Drawing.Color.Transparent
+        Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel4.Controls.Add(Me.FantasyPic2)
+        Me.Panel4.Controls.Add(Me.FantasyPic1)
+        Me.Panel4.Controls.Add(Me.Label15)
+        Me.Panel4.Controls.Add(Me.Button15)
+        Me.Panel4.Controls.Add(Me.ActionPic2)
+        Me.Panel4.Controls.Add(Me.ComedyPic2)
+        Me.Panel4.Controls.Add(Me.HorrorPic2)
+        Me.Panel4.Controls.Add(Me.HorrorPic1)
+        Me.Panel4.Controls.Add(Me.SciFiPic2)
+        Me.Panel4.Controls.Add(Me.ComedyPic1)
+        Me.Panel4.Controls.Add(Me.ActionPic1)
+        Me.Panel4.Controls.Add(Me.Label6)
+        Me.Panel4.Controls.Add(Me.Label5)
+        Me.Panel4.Controls.Add(Me.Label4)
+        Me.Panel4.Controls.Add(Me.Label3)
+        Me.Panel4.Controls.Add(Me.Button13)
+        Me.Panel4.Controls.Add(Me.Button12)
+        Me.Panel4.Controls.Add(Me.Button11)
+        Me.Panel4.Controls.Add(Me.Button10)
+        Me.Panel4.Controls.Add(Me.SciFiPic1)
+        Me.Panel4.Location = New System.Drawing.Point(12, 113)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(124, 124)
+        Me.Panel4.TabIndex = 6
+        '
+        'FantasyPic2
+        '
+        Me.FantasyPic2.BackColor = System.Drawing.SystemColors.Highlight
+        Me.FantasyPic2.Location = New System.Drawing.Point(16, 96)
+        Me.FantasyPic2.Name = "FantasyPic2"
+        Me.FantasyPic2.Size = New System.Drawing.Size(10, 10)
+        Me.FantasyPic2.TabIndex = 23
+        Me.FantasyPic2.TabStop = False
+        Me.FantasyPic2.Visible = False
+        '
+        'FantasyPic1
+        '
+        Me.FantasyPic1.BackColor = System.Drawing.Color.Silver
+        Me.FantasyPic1.Location = New System.Drawing.Point(16, 96)
+        Me.FantasyPic1.Name = "FantasyPic1"
+        Me.FantasyPic1.Size = New System.Drawing.Size(10, 10)
+        Me.FantasyPic1.TabIndex = 22
+        Me.FantasyPic1.TabStop = False
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.BackColor = System.Drawing.Color.Transparent
+        Me.Label15.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.Location = New System.Drawing.Point(63, 95)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(46, 16)
+        Me.Label15.TabIndex = 21
+        Me.Label15.Text = "Fantasy"
+        '
+        'ActionPic2
+        '
+        Me.ActionPic2.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ActionPic2.Location = New System.Drawing.Point(16, 12)
+        Me.ActionPic2.Name = "ActionPic2"
+        Me.ActionPic2.Size = New System.Drawing.Size(10, 10)
+        Me.ActionPic2.TabIndex = 19
+        Me.ActionPic2.TabStop = False
+        Me.ActionPic2.Visible = False
+        '
+        'ComedyPic2
+        '
+        Me.ComedyPic2.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ComedyPic2.Location = New System.Drawing.Point(16, 33)
+        Me.ComedyPic2.Name = "ComedyPic2"
+        Me.ComedyPic2.Size = New System.Drawing.Size(10, 10)
+        Me.ComedyPic2.TabIndex = 19
+        Me.ComedyPic2.TabStop = False
+        Me.ComedyPic2.Visible = False
+        '
+        'HorrorPic2
+        '
+        Me.HorrorPic2.BackColor = System.Drawing.SystemColors.Highlight
+        Me.HorrorPic2.Location = New System.Drawing.Point(16, 75)
+        Me.HorrorPic2.Name = "HorrorPic2"
+        Me.HorrorPic2.Size = New System.Drawing.Size(10, 10)
+        Me.HorrorPic2.TabIndex = 18
+        Me.HorrorPic2.TabStop = False
+        Me.HorrorPic2.Visible = False
+        '
+        'HorrorPic1
+        '
+        Me.HorrorPic1.BackColor = System.Drawing.Color.Silver
+        Me.HorrorPic1.Location = New System.Drawing.Point(16, 75)
+        Me.HorrorPic1.Name = "HorrorPic1"
+        Me.HorrorPic1.Size = New System.Drawing.Size(10, 10)
+        Me.HorrorPic1.TabIndex = 17
+        Me.HorrorPic1.TabStop = False
+        '
+        'SciFiPic2
+        '
+        Me.SciFiPic2.BackColor = System.Drawing.SystemColors.Highlight
+        Me.SciFiPic2.Location = New System.Drawing.Point(16, 54)
+        Me.SciFiPic2.Name = "SciFiPic2"
+        Me.SciFiPic2.Size = New System.Drawing.Size(10, 10)
+        Me.SciFiPic2.TabIndex = 16
+        Me.SciFiPic2.TabStop = False
+        '
+        'ComedyPic1
+        '
+        Me.ComedyPic1.BackColor = System.Drawing.Color.Silver
+        Me.ComedyPic1.Location = New System.Drawing.Point(16, 33)
+        Me.ComedyPic1.Name = "ComedyPic1"
+        Me.ComedyPic1.Size = New System.Drawing.Size(10, 10)
+        Me.ComedyPic1.TabIndex = 15
+        Me.ComedyPic1.TabStop = False
+        '
+        'ActionPic1
+        '
+        Me.ActionPic1.BackColor = System.Drawing.Color.Silver
+        Me.ActionPic1.Location = New System.Drawing.Point(16, 12)
+        Me.ActionPic1.Name = "ActionPic1"
+        Me.ActionPic1.Size = New System.Drawing.Size(10, 10)
+        Me.ActionPic1.TabIndex = 10
+        Me.ActionPic1.TabStop = False
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.BackColor = System.Drawing.Color.Transparent
+        Me.Label6.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(63, 74)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(40, 16)
+        Me.Label6.TabIndex = 14
+        Me.Label6.Text = "Horror"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.BackColor = System.Drawing.Color.Transparent
+        Me.Label5.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(63, 53)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(33, 16)
+        Me.Label5.TabIndex = 13
+        Me.Label5.Text = "SciFi"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.Color.Transparent
+        Me.Label4.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(63, 32)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(47, 16)
+        Me.Label4.TabIndex = 12
+        Me.Label4.Text = "Comedy"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
+        Me.Label3.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(63, 12)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(40, 16)
+        Me.Label3.TabIndex = 11
+        Me.Label3.Text = "Action"
+        '
+        'SciFiPic1
+        '
+        Me.SciFiPic1.BackColor = System.Drawing.Color.Silver
+        Me.SciFiPic1.Location = New System.Drawing.Point(16, 54)
+        Me.SciFiPic1.Name = "SciFiPic1"
+        Me.SciFiPic1.Size = New System.Drawing.Size(10, 10)
+        Me.SciFiPic1.TabIndex = 19
+        Me.SciFiPic1.TabStop = False
+        '
+        'ActionPnl
+        '
+        Me.ActionPnl.BackColor = System.Drawing.Color.Transparent
+        Me.ActionPnl.BackgroundImage = CType(resources.GetObject("ActionPnl.BackgroundImage"), System.Drawing.Image)
+        Me.ActionPnl.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ActionPnl.Controls.Add(Me.Panel3)
+        Me.ActionPnl.Controls.Add(Me.Button8)
+        Me.ActionPnl.Location = New System.Drawing.Point(12, 12)
+        Me.ActionPnl.Name = "ActionPnl"
+        Me.ActionPnl.Size = New System.Drawing.Size(282, 85)
+        Me.ActionPnl.TabIndex = 7
+        '
+        'Panel5
+        '
+        Me.Panel5.BackColor = System.Drawing.Color.Transparent
+        Me.Panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel5.Controls.Add(Me.PosOffBtn)
+        Me.Panel5.Controls.Add(Me.VolOffBtn)
+        Me.Panel5.Controls.Add(Me.Label11)
+        Me.Panel5.Controls.Add(Me.Label12)
+        Me.Panel5.Controls.Add(Me.Label13)
+        Me.Panel5.Controls.Add(Me.Label14)
+        Me.Panel5.Controls.Add(Me.Button18)
+        Me.Panel5.Controls.Add(Me.Button19)
+        Me.Panel5.Controls.Add(Me.Button20)
+        Me.Panel5.Controls.Add(Me.Button21)
+        Me.Panel5.Controls.Add(Me.Label7)
+        Me.Panel5.Controls.Add(Me.Label8)
+        Me.Panel5.Controls.Add(Me.Label9)
+        Me.Panel5.Controls.Add(Me.Label10)
+        Me.Panel5.Controls.Add(Me.Button14)
+        Me.Panel5.Controls.Add(Me.PosOnBtn)
+        Me.Panel5.Controls.Add(Me.VolOnBtn)
+        Me.Panel5.Controls.Add(Me.Button17)
+        Me.Panel5.Location = New System.Drawing.Point(12, 277)
+        Me.Panel5.Name = "Panel5"
+        Me.Panel5.Size = New System.Drawing.Size(218, 105)
+        Me.Panel5.TabIndex = 8
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.BackColor = System.Drawing.Color.Transparent
+        Me.Label11.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(131, 74)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(73, 16)
+        Me.Label11.TabIndex = 22
+        Me.Label11.Text = "Cache leeren"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.BackColor = System.Drawing.Color.Transparent
+        Me.Label12.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(131, 53)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(32, 16)
+        Me.Label12.TabIndex = 21
+        Me.Label12.Text = "Infos"
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.BackColor = System.Drawing.Color.Transparent
+        Me.Label13.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Location = New System.Drawing.Point(131, 32)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(58, 16)
+        Me.Label13.TabIndex = 20
+        Me.Label13.Text = "Aufnahme"
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.BackColor = System.Drawing.Color.Transparent
+        Me.Label14.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Location = New System.Drawing.Point(131, 12)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(64, 16)
+        Me.Label14.TabIndex = 19
+        Me.Label14.Text = "Screenshot"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.BackColor = System.Drawing.Color.Transparent
+        Me.Label7.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(43, 74)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(54, 16)
+        Me.Label7.TabIndex = 14
+        Me.Label7.Text = "Buffering"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.BackColor = System.Drawing.Color.Transparent
+        Me.Label8.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(43, 53)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(48, 16)
+        Me.Label8.TabIndex = 13
+        Me.Label8.Text = "Position"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.BackColor = System.Drawing.Color.Transparent
+        Me.Label9.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(43, 32)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(25, 16)
+        Me.Label9.TabIndex = 12
+        Me.Label9.Text = "Ton"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.BackColor = System.Drawing.Color.Transparent
+        Me.Label10.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(43, 12)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(27, 16)
+        Me.Label10.TabIndex = 11
+        Me.Label10.Text = "Bild"
+        '
+        'VolPnl
+        '
+        Me.VolPnl.BackColor = System.Drawing.Color.Transparent
+        Me.VolPnl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.VolPnl.Controls.Add(Me.TrackBar2)
+        Me.VolPnl.Controls.Add(Me.TrackBar1)
+        Me.VolPnl.Location = New System.Drawing.Point(245, 302)
+        Me.VolPnl.Name = "VolPnl"
+        Me.VolPnl.Size = New System.Drawing.Size(217, 50)
+        Me.VolPnl.TabIndex = 9
+        Me.VolPnl.Visible = False
+        '
+        'TrackBar2
+        '
+        Me.TrackBar2.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.TrackBar2.LargeChange = 2
+        Me.TrackBar2.Location = New System.Drawing.Point(-2, -1)
+        Me.TrackBar2.Name = "TrackBar2"
+        Me.TrackBar2.Size = New System.Drawing.Size(215, 45)
+        Me.TrackBar2.TabIndex = 10
+        Me.TrackBar2.Visible = False
+        '
+        'TrackBar1
+        '
+        Me.TrackBar1.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.TrackBar1.LargeChange = 2
+        Me.TrackBar1.Location = New System.Drawing.Point(0, 0)
+        Me.TrackBar1.Name = "TrackBar1"
+        Me.TrackBar1.Size = New System.Drawing.Size(215, 45)
+        Me.TrackBar1.TabIndex = 0
+        Me.TrackBar1.Value = 10
         '
         'BufferBarOff
         '
@@ -923,6 +1008,37 @@ Partial Class Form1
         Me.BufferBarOn.TabIndex = 24
         Me.BufferBarOn.Visible = False
         '
+        'MenuPnlHider
+        '
+        Me.MenuPnlHider.BackColor = System.Drawing.Color.Transparent
+        Me.MenuPnlHider.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.MenuPnlHider.Controls.Add(Me.PictureBox1)
+        Me.MenuPnlHider.Location = New System.Drawing.Point(12, 277)
+        Me.MenuPnlHider.Name = "MenuPnlHider"
+        Me.MenuPnlHider.Size = New System.Drawing.Size(224, 113)
+        Me.MenuPnlHider.TabIndex = 25
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox1.Location = New System.Drawing.Point(6, 24)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(208, 56)
+        Me.PictureBox1.TabIndex = 28
+        Me.PictureBox1.TabStop = False
+        '
+        'MenuOn
+        '
+        Me.MenuOn.BackgroundImage = CType(resources.GetObject("MenuOn.BackgroundImage"), System.Drawing.Image)
+        Me.MenuOn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.MenuOn.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.MenuOn.Location = New System.Drawing.Point(9, 248)
+        Me.MenuOn.Name = "MenuOn"
+        Me.MenuOn.Size = New System.Drawing.Size(25, 15)
+        Me.MenuOn.TabIndex = 26
+        Me.MenuOn.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -930,6 +1046,9 @@ Partial Class Form1
         Me.BackgroundImage = Global.MovieTown.My.Resources.Resources.Silver_Matt
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(634, 426)
+        Me.Controls.Add(Me.MenuOff)
+        Me.Controls.Add(Me.MenuOn)
+        Me.Controls.Add(Me.MenuPnlHider)
         Me.Controls.Add(Me.BufferBarOn)
         Me.Controls.Add(Me.BufferBarOff)
         Me.Controls.Add(Me.VolPnl)
@@ -960,21 +1079,25 @@ Partial Class Form1
         Me.Panel1.PerformLayout()
         Me.Panel4.ResumeLayout(False)
         Me.Panel4.PerformLayout()
+        CType(Me.FantasyPic2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.FantasyPic1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ActionPic2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ComedyPic2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.HorrorPic2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.HorrorPic1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.SciFiPic2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ComedyPic1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ActionPic1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.SciFiPic1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ActionPnl.ResumeLayout(False)
         Me.Panel5.ResumeLayout(False)
         Me.Panel5.PerformLayout()
-        CType(Me.ActionPic1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ComedyPic1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.SciFiPic2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.HorrorPic1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.HorrorPic2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ComedyPic2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ActionPic2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.SciFiPic1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.VolPnl.ResumeLayout(False)
         Me.VolPnl.PerformLayout()
-        CType(Me.TrackBar1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TrackBar2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TrackBar1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.MenuPnlHider.ResumeLayout(False)
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -1050,4 +1173,13 @@ Partial Class Form1
     Friend WithEvents PosOffBtn As Button
     Friend WithEvents BufferBarOff As ProgressBar
     Friend WithEvents BufferBarOn As ProgressBar
+    Friend WithEvents MenuPnlHider As Panel
+    Friend WithEvents MenuOn As Button
+    Friend WithEvents MenuOff As Button
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents FantasyList As ComboBox
+    Friend WithEvents FantasyPic2 As PictureBox
+    Friend WithEvents FantasyPic1 As PictureBox
+    Friend WithEvents Label15 As Label
+    Friend WithEvents Button15 As Button
 End Class
