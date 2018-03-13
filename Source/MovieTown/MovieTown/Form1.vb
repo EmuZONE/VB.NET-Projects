@@ -3943,13 +3943,13 @@
         InfoPnl.Visible = False
     End Sub
 
-    Private Sub TimerStopBtn_Click(sender As Object, e As EventArgs) Handles TimerStopBtn.Click
+    Private Sub TimerStopBtn_Click(sender As Object, e As EventArgs)
         Min.Stop()
         Sek.Stop()
         Millisek.Stop()
     End Sub
 
-    Private Sub TimerResetBtn_Click(sender As Object, e As EventArgs) Handles TimerResetBtn.Click
+    Private Sub TimerResetBtn_Click(sender As Object, e As EventArgs)
         Min.Stop()
         Sek.Stop()
         Millisek.Stop()

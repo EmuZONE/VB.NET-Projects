@@ -129,6 +129,7 @@ Partial Class Form1
         Me.Min = New System.Windows.Forms.Timer(Me.components)
         Me.Sek = New System.Windows.Forms.Timer(Me.components)
         Me.Millisek = New System.Windows.Forms.Timer(Me.components)
+        Me.Panel10 = New System.Windows.Forms.Panel()
         Me.VLCPnl.SuspendLayout()
         CType(Me.AxVLCPlugin21, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
@@ -162,6 +163,7 @@ Partial Class Form1
         Me.Panel6.SuspendLayout()
         Me.Panel8.SuspendLayout()
         Me.Panel9.SuspendLayout()
+        Me.Panel10.SuspendLayout()
         Me.SuspendLayout()
         '
         'VLCPnl
@@ -702,7 +704,7 @@ Partial Class Form1
         Me.TimerResetBtn.BackgroundImage = CType(resources.GetObject("TimerResetBtn.BackgroundImage"), System.Drawing.Image)
         Me.TimerResetBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.TimerResetBtn.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TimerResetBtn.Location = New System.Drawing.Point(158, 158)
+        Me.TimerResetBtn.Location = New System.Drawing.Point(10, 41)
         Me.TimerResetBtn.Name = "TimerResetBtn"
         Me.TimerResetBtn.Size = New System.Drawing.Size(15, 15)
         Me.TimerResetBtn.TabIndex = 31
@@ -714,7 +716,7 @@ Partial Class Form1
         Me.TimerStopBtn.BackgroundImage = CType(resources.GetObject("TimerStopBtn.BackgroundImage"), System.Drawing.Image)
         Me.TimerStopBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.TimerStopBtn.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TimerStopBtn.Location = New System.Drawing.Point(179, 158)
+        Me.TimerStopBtn.Location = New System.Drawing.Point(31, 41)
         Me.TimerStopBtn.Name = "TimerStopBtn"
         Me.TimerStopBtn.Size = New System.Drawing.Size(15, 15)
         Me.TimerStopBtn.TabIndex = 32
@@ -1265,7 +1267,7 @@ Partial Class Form1
         Me.Panel9.Controls.Add(Me.Seklbl)
         Me.Panel9.Controls.Add(Me.Label21)
         Me.Panel9.Controls.Add(Me.Minlbl)
-        Me.Panel9.Location = New System.Drawing.Point(156, 123)
+        Me.Panel9.Location = New System.Drawing.Point(8, 6)
         Me.Panel9.Name = "Panel9"
         Me.Panel9.Size = New System.Drawing.Size(129, 30)
         Me.Panel9.TabIndex = 30
@@ -1336,6 +1338,19 @@ Partial Class Form1
         'Millisek
         '
         '
+        'Panel10
+        '
+        Me.Panel10.BackColor = System.Drawing.Color.Transparent
+        Me.Panel10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel10.Controls.Add(Me.Panel9)
+        Me.Panel10.Controls.Add(Me.TimerStopBtn)
+        Me.Panel10.Controls.Add(Me.TimerResetBtn)
+        Me.Panel10.Location = New System.Drawing.Point(153, 123)
+        Me.Panel10.Name = "Panel10"
+        Me.Panel10.Size = New System.Drawing.Size(150, 64)
+        Me.Panel10.TabIndex = 33
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1343,9 +1358,7 @@ Partial Class Form1
         Me.BackgroundImage = Global.MovieTown.My.Resources.Resources.Silver_Matt
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(678, 426)
-        Me.Controls.Add(Me.TimerStopBtn)
-        Me.Controls.Add(Me.TimerResetBtn)
-        Me.Controls.Add(Me.Panel9)
+        Me.Controls.Add(Me.Panel10)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel8)
         Me.Controls.Add(Me.Panel6)
@@ -1407,6 +1420,7 @@ Partial Class Form1
         Me.Panel8.ResumeLayout(False)
         Me.Panel9.ResumeLayout(False)
         Me.Panel9.PerformLayout()
+        Me.Panel10.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -1516,4 +1530,5 @@ Partial Class Form1
     Friend WithEvents Min As Timer
     Friend WithEvents Sek As Timer
     Friend WithEvents Millisek As Timer
+    Friend WithEvents Panel10 As Panel
 End Class
