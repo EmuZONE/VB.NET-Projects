@@ -3640,6 +3640,108 @@
         AxVLCPlugin21.playlist.play()
         BufferBarOff.Visible = False
         BufferBarOn.Visible = True
+        Min.Start()
+        Sek.Start()
+        Millisek.Start()
+    End Sub
+
+    Private Sub Millisek_Tick(sender As Object, e As EventArgs) Handles Millisek.Tick
+        Milliseklbl.Text = Milliseklbl.Text + 1
+        If Milliseklbl.Text = 10 Then
+            Milliseklbl.Text = "00"
+        End If
+        If Milliseklbl.Text = 1 Then
+            Milliseklbl.Text = "01"
+        End If
+        If Milliseklbl.Text = 2 Then
+            Milliseklbl.Text = "02"
+        End If
+        If Milliseklbl.Text = 3 Then
+            Milliseklbl.Text = "03"
+        End If
+        If Milliseklbl.Text = 4 Then
+            Milliseklbl.Text = "04"
+        End If
+        If Milliseklbl.Text = 5 Then
+            Milliseklbl.Text = "05"
+        End If
+        If Milliseklbl.Text = 6 Then
+            Milliseklbl.Text = "06"
+        End If
+        If Milliseklbl.Text = 7 Then
+            Milliseklbl.Text = "07"
+        End If
+        If Milliseklbl.Text = 8 Then
+            Milliseklbl.Text = "08"
+        End If
+        If Milliseklbl.Text = 9 Then
+            Milliseklbl.Text = "09"
+        End If
+    End Sub
+
+    Private Sub Sek_Tick(sender As Object, e As EventArgs) Handles Sek.Tick
+        Seklbl.Text = Seklbl.Text + 1
+        If Seklbl.Text = 60 Then
+            Seklbl.Text = "00"
+        End If
+        If Seklbl.Text = 1 Then
+            Seklbl.Text = "01"
+        End If
+        If Seklbl.Text = 2 Then
+            Seklbl.Text = "02"
+        End If
+        If Seklbl.Text = 3 Then
+            Seklbl.Text = "03"
+        End If
+        If Seklbl.Text = 4 Then
+            Seklbl.Text = "04"
+        End If
+        If Seklbl.Text = 5 Then
+            Seklbl.Text = "05"
+        End If
+        If Seklbl.Text = 6 Then
+            Seklbl.Text = "06"
+        End If
+        If Seklbl.Text = 7 Then
+            Seklbl.Text = "07"
+        End If
+        If Seklbl.Text = 8 Then
+            Seklbl.Text = "08"
+        End If
+        If Seklbl.Text = 9 Then
+            Seklbl.Text = "09"
+        End If
+    End Sub
+
+    Private Sub Min_Tick(sender As Object, e As EventArgs) Handles Min.Tick
+        Minlbl.Text = Minlbl.Text + 1
+        If Minlbl.Text = 1 Then
+            Minlbl.Text = "01"
+        End If
+        If Minlbl.Text = 2 Then
+            Minlbl.Text = "02"
+        End If
+        If Minlbl.Text = 3 Then
+            Minlbl.Text = "03"
+        End If
+        If Minlbl.Text = 4 Then
+            Minlbl.Text = "04"
+        End If
+        If Minlbl.Text = 5 Then
+            Minlbl.Text = "05"
+        End If
+        If Minlbl.Text = 6 Then
+            Minlbl.Text = "06"
+        End If
+        If Minlbl.Text = 7 Then
+            Minlbl.Text = "07"
+        End If
+        If Minlbl.Text = 8 Then
+            Minlbl.Text = "08"
+        End If
+        If Minlbl.Text = 9 Then
+            Minlbl.Text = "09"
+        End If
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
@@ -3662,6 +3764,9 @@
         Genrelbl.Visible = False
         Yearlbl.Visible = False
         IMDBlbl.Visible = False
+        Min.Stop()
+        Sek.Stop()
+        Millisek.Stop()
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
@@ -3792,13 +3897,13 @@
     End Sub
 
     Private Sub MenuOn_Click(sender As Object, e As EventArgs) Handles MenuOn.Click
-        MenuPnlHider.Location = New Point(9, 375)
+        MenuPnlHider.Location = New Point(46, 387)
         MenuOff.Visible = True
         MenuOn.Visible = False
     End Sub
 
     Private Sub MenuOff_Click(sender As Object, e As EventArgs) Handles MenuOff.Click
-        MenuPnlHider.Location = New Point(9, 277)
+        MenuPnlHider.Location = New Point(46, 289)
         MenuOff.Visible = False
         MenuOn.Visible = True
         InfoPnl.Visible = False
@@ -3836,5 +3941,20 @@
         InfoOffBtn.Visible = False
         InfoOnBtn.Visible = True
         InfoPnl.Visible = False
+    End Sub
+
+    Private Sub TimerStopBtn_Click(sender As Object, e As EventArgs) Handles TimerStopBtn.Click
+        Min.Stop()
+        Sek.Stop()
+        Millisek.Stop()
+    End Sub
+
+    Private Sub TimerResetBtn_Click(sender As Object, e As EventArgs) Handles TimerResetBtn.Click
+        Min.Stop()
+        Sek.Stop()
+        Millisek.Stop()
+        Minlbl.Text = "00"
+        Seklbl.Text = "00"
+        Milliseklbl.Text = "00"
     End Sub
 End Class

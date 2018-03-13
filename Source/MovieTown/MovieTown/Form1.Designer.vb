@@ -70,6 +70,9 @@ Partial Class Form1
         Me.PosOffBtn = New System.Windows.Forms.Button()
         Me.MenuOff = New System.Windows.Forms.Button()
         Me.Button15 = New System.Windows.Forms.Button()
+        Me.InfoOffBtn = New System.Windows.Forms.Button()
+        Me.TimerResetBtn = New System.Windows.Forms.Button()
+        Me.TimerStopBtn = New System.Windows.Forms.Button()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.FantasyPic2 = New System.Windows.Forms.PictureBox()
         Me.FantasyPic1 = New System.Windows.Forms.PictureBox()
@@ -102,21 +105,30 @@ Partial Class Form1
         Me.BufferBarOff = New System.Windows.Forms.ProgressBar()
         Me.BufferBarOn = New System.Windows.Forms.ProgressBar()
         Me.MenuPnlHider = New System.Windows.Forms.Panel()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.MenuOn = New System.Windows.Forms.Button()
         Me.InfoPnl = New System.Windows.Forms.Panel()
-        Me.Label16 = New System.Windows.Forms.Label()
-        Me.Label17 = New System.Windows.Forms.Label()
-        Me.Label18 = New System.Windows.Forms.Label()
-        Me.Label19 = New System.Windows.Forms.Label()
         Me.Panel7 = New System.Windows.Forms.Panel()
-        Me.Durationlbl = New System.Windows.Forms.Label()
-        Me.Genrelbl = New System.Windows.Forms.Label()
-        Me.Yearlbl = New System.Windows.Forms.Label()
         Me.IMDBlbl = New System.Windows.Forms.Label()
-        Me.InfoOffBtn = New System.Windows.Forms.Button()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.Yearlbl = New System.Windows.Forms.Label()
+        Me.Genrelbl = New System.Windows.Forms.Label()
+        Me.Durationlbl = New System.Windows.Forms.Label()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.Label16 = New System.Windows.Forms.Label()
         Me.Panel6 = New System.Windows.Forms.Panel()
+        Me.Panel8 = New System.Windows.Forms.Panel()
+        Me.Panel9 = New System.Windows.Forms.Panel()
+        Me.Milliseklbl = New System.Windows.Forms.Label()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.Seklbl = New System.Windows.Forms.Label()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.Minlbl = New System.Windows.Forms.Label()
+        Me.Min = New System.Windows.Forms.Timer(Me.components)
+        Me.Sek = New System.Windows.Forms.Timer(Me.components)
+        Me.Millisek = New System.Windows.Forms.Timer(Me.components)
         Me.VLCPnl.SuspendLayout()
         CType(Me.AxVLCPlugin21, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
@@ -143,21 +155,22 @@ Partial Class Form1
         CType(Me.TrackBar2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TrackBar1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuPnlHider.SuspendLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.InfoPnl.SuspendLayout()
         Me.Panel7.SuspendLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel6.SuspendLayout()
+        Me.Panel8.SuspendLayout()
+        Me.Panel9.SuspendLayout()
         Me.SuspendLayout()
         '
         'VLCPnl
         '
         Me.VLCPnl.BackColor = System.Drawing.Color.Transparent
-        Me.VLCPnl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.VLCPnl.Controls.Add(Me.AxVLCPlugin21)
-        Me.VLCPnl.Location = New System.Drawing.Point(341, 12)
+        Me.VLCPnl.Location = New System.Drawing.Point(13, 14)
         Me.VLCPnl.Name = "VLCPnl"
-        Me.VLCPnl.Size = New System.Drawing.Size(322, 225)
+        Me.VLCPnl.Size = New System.Drawing.Size(322, 216)
         Me.VLCPnl.TabIndex = 0
         '
         'AxVLCPlugin21
@@ -166,7 +179,7 @@ Partial Class Form1
         Me.AxVLCPlugin21.Location = New System.Drawing.Point(-2, -2)
         Me.AxVLCPlugin21.Name = "AxVLCPlugin21"
         Me.AxVLCPlugin21.OcxState = CType(resources.GetObject("AxVLCPlugin21.OcxState"), System.Windows.Forms.AxHost.State)
-        Me.AxVLCPlugin21.Size = New System.Drawing.Size(322, 224)
+        Me.AxVLCPlugin21.Size = New System.Drawing.Size(324, 215)
         Me.AxVLCPlugin21.TabIndex = 0
         '
         'Panel2
@@ -182,7 +195,7 @@ Partial Class Form1
         Me.Panel2.Controls.Add(Me.Button3)
         Me.Panel2.Controls.Add(Me.Button2)
         Me.Panel2.Controls.Add(Me.Button1)
-        Me.Panel2.Location = New System.Drawing.Point(374, 252)
+        Me.Panel2.Location = New System.Drawing.Point(374, 262)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(253, 34)
         Me.Panel2.TabIndex = 1
@@ -376,21 +389,20 @@ Partial Class Form1
         'WMPPnl
         '
         Me.WMPPnl.BackColor = System.Drawing.Color.Transparent
-        Me.WMPPnl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.WMPPnl.Controls.Add(Me.AxWindowsMediaPlayer1)
-        Me.WMPPnl.Location = New System.Drawing.Point(341, 12)
+        Me.WMPPnl.Location = New System.Drawing.Point(13, 14)
         Me.WMPPnl.Name = "WMPPnl"
-        Me.WMPPnl.Size = New System.Drawing.Size(322, 225)
+        Me.WMPPnl.Size = New System.Drawing.Size(322, 213)
         Me.WMPPnl.TabIndex = 5
         Me.WMPPnl.Visible = False
         '
         'AxWindowsMediaPlayer1
         '
         Me.AxWindowsMediaPlayer1.Enabled = True
-        Me.AxWindowsMediaPlayer1.Location = New System.Drawing.Point(-2, -2)
+        Me.AxWindowsMediaPlayer1.Location = New System.Drawing.Point(0, -2)
         Me.AxWindowsMediaPlayer1.Name = "AxWindowsMediaPlayer1"
         Me.AxWindowsMediaPlayer1.OcxState = CType(resources.GetObject("AxWindowsMediaPlayer1.OcxState"), System.Windows.Forms.AxHost.State)
-        Me.AxWindowsMediaPlayer1.Size = New System.Drawing.Size(322, 269)
+        Me.AxWindowsMediaPlayer1.Size = New System.Drawing.Size(322, 250)
         Me.AxWindowsMediaPlayer1.TabIndex = 0
         '
         'PlayerBtn1
@@ -672,6 +684,43 @@ Partial Class Form1
         Me.ToolTip1.SetToolTip(Me.Button15, "Player wechseln")
         Me.Button15.UseVisualStyleBackColor = True
         '
+        'InfoOffBtn
+        '
+        Me.InfoOffBtn.BackgroundImage = CType(resources.GetObject("InfoOffBtn.BackgroundImage"), System.Drawing.Image)
+        Me.InfoOffBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.InfoOffBtn.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.InfoOffBtn.Location = New System.Drawing.Point(100, 54)
+        Me.InfoOffBtn.Name = "InfoOffBtn"
+        Me.InfoOffBtn.Size = New System.Drawing.Size(25, 15)
+        Me.InfoOffBtn.TabIndex = 29
+        Me.ToolTip1.SetToolTip(Me.InfoOffBtn, "Player wechseln")
+        Me.InfoOffBtn.UseVisualStyleBackColor = True
+        Me.InfoOffBtn.Visible = False
+        '
+        'TimerResetBtn
+        '
+        Me.TimerResetBtn.BackgroundImage = CType(resources.GetObject("TimerResetBtn.BackgroundImage"), System.Drawing.Image)
+        Me.TimerResetBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.TimerResetBtn.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TimerResetBtn.Location = New System.Drawing.Point(158, 158)
+        Me.TimerResetBtn.Name = "TimerResetBtn"
+        Me.TimerResetBtn.Size = New System.Drawing.Size(15, 15)
+        Me.TimerResetBtn.TabIndex = 31
+        Me.ToolTip1.SetToolTip(Me.TimerResetBtn, "Timer Reset")
+        Me.TimerResetBtn.UseVisualStyleBackColor = True
+        '
+        'TimerStopBtn
+        '
+        Me.TimerStopBtn.BackgroundImage = CType(resources.GetObject("TimerStopBtn.BackgroundImage"), System.Drawing.Image)
+        Me.TimerStopBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.TimerStopBtn.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TimerStopBtn.Location = New System.Drawing.Point(179, 158)
+        Me.TimerStopBtn.Name = "TimerStopBtn"
+        Me.TimerStopBtn.Size = New System.Drawing.Size(15, 15)
+        Me.TimerStopBtn.TabIndex = 32
+        Me.ToolTip1.SetToolTip(Me.TimerStopBtn, "Timer Stop")
+        Me.TimerStopBtn.UseVisualStyleBackColor = True
+        '
         'Panel4
         '
         Me.Panel4.BackColor = System.Drawing.Color.Transparent
@@ -885,7 +934,7 @@ Partial Class Form1
         Me.Panel5.Controls.Add(Me.PosOnBtn)
         Me.Panel5.Controls.Add(Me.VolOnBtn)
         Me.Panel5.Controls.Add(Me.Button17)
-        Me.Panel5.Location = New System.Drawing.Point(21, 289)
+        Me.Panel5.Location = New System.Drawing.Point(46, 289)
         Me.Panel5.Name = "Panel5"
         Me.Panel5.Size = New System.Drawing.Size(218, 105)
         Me.Panel5.TabIndex = 8
@@ -1012,14 +1061,14 @@ Partial Class Form1
         '
         'BufferBarOff
         '
-        Me.BufferBarOff.Location = New System.Drawing.Point(374, 237)
+        Me.BufferBarOff.Location = New System.Drawing.Point(374, 247)
         Me.BufferBarOff.Name = "BufferBarOff"
         Me.BufferBarOff.Size = New System.Drawing.Size(251, 10)
         Me.BufferBarOff.TabIndex = 23
         '
         'BufferBarOn
         '
-        Me.BufferBarOn.Location = New System.Drawing.Point(374, 237)
+        Me.BufferBarOn.Location = New System.Drawing.Point(374, 247)
         Me.BufferBarOn.Name = "BufferBarOn"
         Me.BufferBarOn.Size = New System.Drawing.Size(251, 10)
         Me.BufferBarOn.Style = System.Windows.Forms.ProgressBarStyle.Marquee
@@ -1032,10 +1081,20 @@ Partial Class Form1
         Me.MenuPnlHider.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.MenuPnlHider.Controls.Add(Me.PictureBox2)
         Me.MenuPnlHider.Controls.Add(Me.PictureBox1)
-        Me.MenuPnlHider.Location = New System.Drawing.Point(21, 289)
+        Me.MenuPnlHider.Location = New System.Drawing.Point(46, 289)
         Me.MenuPnlHider.Name = "MenuPnlHider"
         Me.MenuPnlHider.Size = New System.Drawing.Size(224, 113)
         Me.MenuPnlHider.TabIndex = 25
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.BackgroundImage = CType(resources.GetObject("PictureBox2.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox2.Location = New System.Drawing.Point(6, 72)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(208, 24)
+        Me.PictureBox2.TabIndex = 29
+        Me.PictureBox2.TabStop = False
         '
         'PictureBox1
         '
@@ -1073,50 +1132,6 @@ Partial Class Form1
         Me.InfoPnl.TabIndex = 28
         Me.InfoPnl.Visible = False
         '
-        'Label16
-        '
-        Me.Label16.AutoSize = True
-        Me.Label16.BackColor = System.Drawing.Color.Transparent
-        Me.Label16.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(12, 15)
-        Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(38, 16)
-        Me.Label16.TabIndex = 12
-        Me.Label16.Text = "Dauer"
-        '
-        'Label17
-        '
-        Me.Label17.AutoSize = True
-        Me.Label17.BackColor = System.Drawing.Color.Transparent
-        Me.Label17.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(12, 35)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(38, 16)
-        Me.Label17.TabIndex = 13
-        Me.Label17.Text = "Genre"
-        '
-        'Label18
-        '
-        Me.Label18.AutoSize = True
-        Me.Label18.BackColor = System.Drawing.Color.Transparent
-        Me.Label18.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(23, 55)
-        Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(28, 16)
-        Me.Label18.TabIndex = 14
-        Me.Label18.Text = "Jahr"
-        '
-        'Label19
-        '
-        Me.Label19.AutoSize = True
-        Me.Label19.BackColor = System.Drawing.Color.Transparent
-        Me.Label19.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.Location = New System.Drawing.Point(14, 75)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(36, 16)
-        Me.Label19.TabIndex = 15
-        Me.Label19.Text = "IMDB"
-        '
         'Panel7
         '
         Me.Panel7.BackColor = System.Drawing.Color.Beige
@@ -1130,27 +1145,16 @@ Partial Class Form1
         Me.Panel7.Size = New System.Drawing.Size(105, 90)
         Me.Panel7.TabIndex = 16
         '
-        'Durationlbl
+        'IMDBlbl
         '
-        Me.Durationlbl.AutoSize = True
-        Me.Durationlbl.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Durationlbl.Location = New System.Drawing.Point(3, 5)
-        Me.Durationlbl.Name = "Durationlbl"
-        Me.Durationlbl.Size = New System.Drawing.Size(17, 16)
-        Me.Durationlbl.TabIndex = 29
-        Me.Durationlbl.Text = "..."
-        Me.Durationlbl.Visible = False
-        '
-        'Genrelbl
-        '
-        Me.Genrelbl.AutoSize = True
-        Me.Genrelbl.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Genrelbl.Location = New System.Drawing.Point(3, 25)
-        Me.Genrelbl.Name = "Genrelbl"
-        Me.Genrelbl.Size = New System.Drawing.Size(17, 16)
-        Me.Genrelbl.TabIndex = 30
-        Me.Genrelbl.Text = "..."
-        Me.Genrelbl.Visible = False
+        Me.IMDBlbl.AutoSize = True
+        Me.IMDBlbl.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.IMDBlbl.Location = New System.Drawing.Point(3, 65)
+        Me.IMDBlbl.Name = "IMDBlbl"
+        Me.IMDBlbl.Size = New System.Drawing.Size(17, 16)
+        Me.IMDBlbl.TabIndex = 30
+        Me.IMDBlbl.Text = "..."
+        Me.IMDBlbl.Visible = False
         '
         'Yearlbl
         '
@@ -1163,39 +1167,71 @@ Partial Class Form1
         Me.Yearlbl.Text = "..."
         Me.Yearlbl.Visible = False
         '
-        'IMDBlbl
+        'Genrelbl
         '
-        Me.IMDBlbl.AutoSize = True
-        Me.IMDBlbl.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.IMDBlbl.Location = New System.Drawing.Point(3, 65)
-        Me.IMDBlbl.Name = "IMDBlbl"
-        Me.IMDBlbl.Size = New System.Drawing.Size(17, 16)
-        Me.IMDBlbl.TabIndex = 30
-        Me.IMDBlbl.Text = "..."
-        Me.IMDBlbl.Visible = False
+        Me.Genrelbl.AutoSize = True
+        Me.Genrelbl.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Genrelbl.Location = New System.Drawing.Point(3, 25)
+        Me.Genrelbl.Name = "Genrelbl"
+        Me.Genrelbl.Size = New System.Drawing.Size(17, 16)
+        Me.Genrelbl.TabIndex = 30
+        Me.Genrelbl.Text = "..."
+        Me.Genrelbl.Visible = False
         '
-        'InfoOffBtn
+        'Durationlbl
         '
-        Me.InfoOffBtn.BackgroundImage = CType(resources.GetObject("InfoOffBtn.BackgroundImage"), System.Drawing.Image)
-        Me.InfoOffBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.InfoOffBtn.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.InfoOffBtn.Location = New System.Drawing.Point(100, 54)
-        Me.InfoOffBtn.Name = "InfoOffBtn"
-        Me.InfoOffBtn.Size = New System.Drawing.Size(25, 15)
-        Me.InfoOffBtn.TabIndex = 29
-        Me.ToolTip1.SetToolTip(Me.InfoOffBtn, "Player wechseln")
-        Me.InfoOffBtn.UseVisualStyleBackColor = True
-        Me.InfoOffBtn.Visible = False
+        Me.Durationlbl.AutoSize = True
+        Me.Durationlbl.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Durationlbl.Location = New System.Drawing.Point(3, 5)
+        Me.Durationlbl.Name = "Durationlbl"
+        Me.Durationlbl.Size = New System.Drawing.Size(17, 16)
+        Me.Durationlbl.TabIndex = 29
+        Me.Durationlbl.Text = "..."
+        Me.Durationlbl.Visible = False
         '
-        'PictureBox2
+        'Label19
         '
-        Me.PictureBox2.BackgroundImage = CType(resources.GetObject("PictureBox2.BackgroundImage"), System.Drawing.Image)
-        Me.PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox2.Location = New System.Drawing.Point(6, 72)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(208, 24)
-        Me.PictureBox2.TabIndex = 29
-        Me.PictureBox2.TabStop = False
+        Me.Label19.AutoSize = True
+        Me.Label19.BackColor = System.Drawing.Color.Transparent
+        Me.Label19.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label19.Location = New System.Drawing.Point(14, 75)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(36, 16)
+        Me.Label19.TabIndex = 15
+        Me.Label19.Text = "IMDB"
+        '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.BackColor = System.Drawing.Color.Transparent
+        Me.Label18.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label18.Location = New System.Drawing.Point(23, 55)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(28, 16)
+        Me.Label18.TabIndex = 14
+        Me.Label18.Text = "Jahr"
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.BackColor = System.Drawing.Color.Transparent
+        Me.Label17.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.Location = New System.Drawing.Point(12, 35)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(38, 16)
+        Me.Label17.TabIndex = 13
+        Me.Label17.Text = "Genre"
+        '
+        'Label16
+        '
+        Me.Label16.AutoSize = True
+        Me.Label16.BackColor = System.Drawing.Color.Transparent
+        Me.Label16.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label16.Location = New System.Drawing.Point(12, 15)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(38, 16)
+        Me.Label16.TabIndex = 12
+        Me.Label16.Text = "Dauer"
         '
         'Panel6
         '
@@ -1208,6 +1244,98 @@ Partial Class Form1
         Me.Panel6.Size = New System.Drawing.Size(307, 96)
         Me.Panel6.TabIndex = 29
         '
+        'Panel8
+        '
+        Me.Panel8.BackColor = System.Drawing.Color.Transparent
+        Me.Panel8.BackgroundImage = CType(resources.GetObject("Panel8.BackgroundImage"), System.Drawing.Image)
+        Me.Panel8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel8.Controls.Add(Me.WMPPnl)
+        Me.Panel8.Controls.Add(Me.VLCPnl)
+        Me.Panel8.Location = New System.Drawing.Point(322, 1)
+        Me.Panel8.Name = "Panel8"
+        Me.Panel8.Size = New System.Drawing.Size(352, 240)
+        Me.Panel8.TabIndex = 29
+        '
+        'Panel9
+        '
+        Me.Panel9.BackColor = System.Drawing.Color.Beige
+        Me.Panel9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel9.Controls.Add(Me.Milliseklbl)
+        Me.Panel9.Controls.Add(Me.Label22)
+        Me.Panel9.Controls.Add(Me.Seklbl)
+        Me.Panel9.Controls.Add(Me.Label21)
+        Me.Panel9.Controls.Add(Me.Minlbl)
+        Me.Panel9.Location = New System.Drawing.Point(156, 123)
+        Me.Panel9.Name = "Panel9"
+        Me.Panel9.Size = New System.Drawing.Size(129, 30)
+        Me.Panel9.TabIndex = 30
+        '
+        'Milliseklbl
+        '
+        Me.Milliseklbl.AutoSize = True
+        Me.Milliseklbl.BackColor = System.Drawing.Color.Transparent
+        Me.Milliseklbl.Font = New System.Drawing.Font("Franklin Gothic Medium", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Milliseklbl.Location = New System.Drawing.Point(78, 5)
+        Me.Milliseklbl.Name = "Milliseklbl"
+        Me.Milliseklbl.Size = New System.Drawing.Size(28, 21)
+        Me.Milliseklbl.TabIndex = 35
+        Me.Milliseklbl.Text = "00"
+        '
+        'Label22
+        '
+        Me.Label22.AutoSize = True
+        Me.Label22.BackColor = System.Drawing.Color.Transparent
+        Me.Label22.Font = New System.Drawing.Font("Franklin Gothic Medium", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label22.Location = New System.Drawing.Point(71, 4)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(14, 21)
+        Me.Label22.TabIndex = 34
+        Me.Label22.Text = ":"
+        '
+        'Seklbl
+        '
+        Me.Seklbl.AutoSize = True
+        Me.Seklbl.BackColor = System.Drawing.Color.Transparent
+        Me.Seklbl.Font = New System.Drawing.Font("Franklin Gothic Medium", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Seklbl.Location = New System.Drawing.Point(49, 5)
+        Me.Seklbl.Name = "Seklbl"
+        Me.Seklbl.Size = New System.Drawing.Size(28, 21)
+        Me.Seklbl.TabIndex = 33
+        Me.Seklbl.Text = "00"
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.BackColor = System.Drawing.Color.Transparent
+        Me.Label21.Font = New System.Drawing.Font("Franklin Gothic Medium", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label21.Location = New System.Drawing.Point(42, 4)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(14, 21)
+        Me.Label21.TabIndex = 32
+        Me.Label21.Text = ":"
+        '
+        'Minlbl
+        '
+        Me.Minlbl.AutoSize = True
+        Me.Minlbl.BackColor = System.Drawing.Color.Transparent
+        Me.Minlbl.Font = New System.Drawing.Font("Franklin Gothic Medium", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Minlbl.Location = New System.Drawing.Point(20, 5)
+        Me.Minlbl.Name = "Minlbl"
+        Me.Minlbl.Size = New System.Drawing.Size(28, 21)
+        Me.Minlbl.TabIndex = 31
+        Me.Minlbl.Text = "00"
+        '
+        'Min
+        '
+        Me.Min.Interval = 60000
+        '
+        'Sek
+        '
+        Me.Sek.Interval = 1000
+        '
+        'Millisek
+        '
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1215,6 +1343,11 @@ Partial Class Form1
         Me.BackgroundImage = Global.MovieTown.My.Resources.Resources.Silver_Matt
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(678, 426)
+        Me.Controls.Add(Me.TimerStopBtn)
+        Me.Controls.Add(Me.TimerResetBtn)
+        Me.Controls.Add(Me.Panel9)
+        Me.Controls.Add(Me.Panel2)
+        Me.Controls.Add(Me.Panel8)
         Me.Controls.Add(Me.Panel6)
         Me.Controls.Add(Me.InfoPnl)
         Me.Controls.Add(Me.MenuOff)
@@ -1226,10 +1359,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Panel5)
         Me.Controls.Add(Me.Panel4)
         Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.WMPPnl)
         Me.Controls.Add(Me.Button9)
-        Me.Controls.Add(Me.Panel2)
-        Me.Controls.Add(Me.VLCPnl)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
@@ -1267,13 +1397,16 @@ Partial Class Form1
         CType(Me.TrackBar2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TrackBar1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MenuPnlHider.ResumeLayout(False)
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.InfoPnl.ResumeLayout(False)
         Me.InfoPnl.PerformLayout()
         Me.Panel7.ResumeLayout(False)
         Me.Panel7.PerformLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel6.ResumeLayout(False)
+        Me.Panel8.ResumeLayout(False)
+        Me.Panel9.ResumeLayout(False)
+        Me.Panel9.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -1371,4 +1504,16 @@ Partial Class Form1
     Friend WithEvents InfoOffBtn As Button
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents Panel6 As Panel
+    Friend WithEvents Panel8 As Panel
+    Friend WithEvents Panel9 As Panel
+    Friend WithEvents Milliseklbl As Label
+    Friend WithEvents Label22 As Label
+    Friend WithEvents Seklbl As Label
+    Friend WithEvents Label21 As Label
+    Friend WithEvents Minlbl As Label
+    Friend WithEvents TimerResetBtn As Button
+    Friend WithEvents TimerStopBtn As Button
+    Friend WithEvents Min As Timer
+    Friend WithEvents Sek As Timer
+    Friend WithEvents Millisek As Timer
 End Class
