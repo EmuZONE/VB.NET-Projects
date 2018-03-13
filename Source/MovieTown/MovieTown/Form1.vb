@@ -21,219 +21,795 @@
             Case 0
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("https://archive.org/download/ClassicMovieCollection/NachEigenenRegeln1996.mp4")
+                Durationlbl.Text = "107 Minuten"
+                Genrelbl.Text = "Thriller"
+                Yearlbl.Text = "1996"
+                IMDBlbl.Text = "6.2/10"
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 1
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("https://archive.org/download/GermanMoviesVol2/Rookie%20der%20Anf%C3%A4nger.mp4")
+                Durationlbl.Text = "121 Minuten"
+                Genrelbl.Text = "Action / Comedy"
+                Yearlbl.Text = "1990"
+                IMDBlbl.Text = "5.9/10"
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 2
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("https://archive.org/download/OldSchool-Movies/True%20Lies.mp4")
+                Durationlbl.Text = "135 Minuten"
+                Genrelbl.Text = "Action"
+                Yearlbl.Text = "1994"
+                IMDBlbl.Text = "7.2/10"
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 3
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("https://archive.org/download/OldSchool-Movies/FromDuskTillDawn.mp4")
+                Durationlbl.Text = "104 Minuten"
+                Genrelbl.Text = "Action / Horror"
+                Yearlbl.Text = "1996"
+                IMDBlbl.Text = "7.3/10"
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 4
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("https://archive.org/download/OldSchool-Movies/Cliffhanger.mp4")
+                Durationlbl.Text = "118 Minuten"
+                Genrelbl.Text = "Action"
+                Yearlbl.Text = "1993"
+                IMDBlbl.Text = "6.4/10"
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 5
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("https://archive.org/download/OldSchool-Movies/Tango%20%26%20Cash.mp4")
+                Durationlbl.Text = "104 Minuten"
+                Genrelbl.Text = "Action"
+                Yearlbl.Text = "1989"
+                IMDBlbl.Text = "6.4/10"
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 6
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("https://archive.org/download/OldSchool-Movies/Last%20Action%20Hero.mp4")
+                Durationlbl.Text = "130 Minuten"
+                Genrelbl.Text = "Action / Comedy"
+                Yearlbl.Text = "1993"
+                IMDBlbl.Text = "6.3/10"
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 7
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("https://archive.org/download/OldSchool-Movies/Lethal%20Weapon.mp4")
+                Durationlbl.Text = "112 Minuten"
+                Genrelbl.Text = "Action / Comedy"
+                Yearlbl.Text = "1987"
+                IMDBlbl.Text = "7.6/10"
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 8
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("https://archive.org/download/OldSchool-Movies/Lethal%20Weapon%202_2.mp4")
+                Durationlbl.Text = "113 Minuten"
+                Genrelbl.Text = "Action / Comedy"
+                Yearlbl.Text = "1989"
+                IMDBlbl.Text = "6.7/10"
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 9
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("https://archive.org/download/OldSchool-Movies/Lethal%20Weapon%202.mp4")
+                Durationlbl.Text = "116 Minuten"
+                Genrelbl.Text = "Action / Comedy"
+                Yearlbl.Text = "1992"
+                IMDBlbl.Text = "6.7/10"
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 10
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("https://archive.org/download/OldSchool-Movies/Lethal%20Weapon%204.mp4")
+                Durationlbl.Text = "127 Minuten"
+                Genrelbl.Text = "Action / Comedy"
+                Yearlbl.Text = "1998"
+                IMDBlbl.Text = "6.6/10"
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 11
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("https://archive.org/download/OldSchool-Movies/Red%20Heat.mp4")
+                Durationlbl.Text = "104 Minuten"
+                Genrelbl.Text = "Action"
+                Yearlbl.Text = "1988"
+                IMDBlbl.Text = "6.1/10"
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 12
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("https://archive.org/download/OldSchool-Movies/Rambo.mp4")
+                Durationlbl.Text = "93 Minuten"
+                Genrelbl.Text = "Action / Survival"
+                Yearlbl.Text = "1982"
+                IMDBlbl.Text = "7.7/10"
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 13
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("https://archive.org/download/OldSchool-Movies/Rambo%202.mp4")
+                Durationlbl.Text = "96 Minuten"
+                Genrelbl.Text = "Action / Survival"
+                Yearlbl.Text = "1985"
+                IMDBlbl.Text = "6.4/10"
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 14
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("https://archive.org/download/OldSchool-Movies/Rambo%20III.mp4")
+                Durationlbl.Text = "102 Minuten"
+                Genrelbl.Text = "Action / Survival"
+                Yearlbl.Text = "1988"
+                IMDBlbl.Text = "5.7/10"
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 15
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("https://archive.org/download/OldSchool-Movies/John%20rambo.mp4")
+                Durationlbl.Text = "92 Minuten"
+                Genrelbl.Text = "Action / Splatter"
+                Yearlbl.Text = "2008"
+                IMDBlbl.Text = "7.0/10"
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 16
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("https://archive.org/download/OldSchool-Movies/Der%20City%20Hai.mp4")
+                Durationlbl.Text = "106 Minuten"
+                Genrelbl.Text = "Action"
+                Yearlbl.Text = "1986"
+                IMDBlbl.Text = "5.5/10"
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 17
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("https://archive.org/download/OldSchool-Movies/Die%20Hard.mp4")
+                Durationlbl.Text = "132 Minuten"
+                Genrelbl.Text = "Action"
+                Yearlbl.Text = "1988"
+                IMDBlbl.Text = "8.2/10"
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 18
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("https://archive.org/download/OldSchool-Movies/Die%20Hard%202.mp4")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 19
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("https://archive.org/download/OldSchool-Movies/Die%20Hard%203.mp4")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 20
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("https://archive.org/download/OldSchool-Movies/Die%20Hard%204.mp4")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 21
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("https://archive.org/download/OldSchool-Movies/Die%20Hard%205.mp4")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 22
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 23
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 24
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 25
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 26
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 27
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 28
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 29
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 30
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 31
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 32
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 33
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 34
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 35
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 36
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 37
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 38
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 39
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 40
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 41
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 42
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 43
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 44
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 45
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 46
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 47
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 48
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 49
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 50
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 51
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 52
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 53
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 54
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 55
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 56
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 57
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 58
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 59
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 60
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 61
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 62
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 63
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 64
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 65
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 66
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 67
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 68
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 69
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 70
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 71
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
         End Select
     End Sub
 
@@ -242,219 +818,795 @@
             Case 0
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("https://archive.org/download/KleinErnaAufDemJungfernstieg1969/Die%20Supernasen.mp4")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 1
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("https://archive.org/download/KleinErnaAufDemJungfernstieg1969/Zwei%20Nasen%20tanken%20Super.mp4")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 2
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("https://archive.org/download/ZrtlicheChaoten/Z%C3%A4rtliche%20Chaoten%20%281987%29%20HD%20Stream%20%C2%BB%20StreamKistetv.mp4")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 3
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("https://archive.org/download/ZrtlicheChaoten/Z%C3%A4rtliche%20Chaoten%20II%20%281988%29%20HD%20Stream%20%C2%BB%20StreamKistetv.mp4")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 4
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("https://archive.org/download/KleinErnaAufDemJungfernstieg1969/Piratensender%20Power%20Play.mp4")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 5
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("https://archive.org/download/My80sFavorites/DieEinsteiger.mp4")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 6
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 7
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 8
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 9
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 10
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 11
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 12
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 13
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 14
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 15
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 16
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 17
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 18
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 19
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 20
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 21
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 22
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 23
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 24
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 25
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 26
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 27
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 28
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 29
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 30
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 31
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 32
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 33
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 34
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 35
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 36
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 37
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 38
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 39
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 40
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 41
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 42
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 43
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 44
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 45
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 46
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 47
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 48
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 49
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 50
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 51
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 52
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 53
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 54
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 55
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 56
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 57
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 58
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 59
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 60
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 61
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 62
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 63
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 64
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 65
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 66
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 67
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 68
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 69
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 70
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 71
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
         End Select
     End Sub
 
@@ -532,150 +1684,542 @@
             Case 23
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 24
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 25
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 26
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 27
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 28
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 29
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 30
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 31
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 32
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 33
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 34
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 35
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 36
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 37
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 38
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 39
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 40
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 41
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 42
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 43
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 44
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 45
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 46
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 47
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 48
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 49
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 50
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 51
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 52
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 53
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 54
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 55
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 56
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 57
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 58
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 59
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 60
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 61
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 62
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 63
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 64
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 65
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 66
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 67
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 68
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 69
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 70
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 71
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
         End Select
     End Sub
 
@@ -714,189 +2258,685 @@
             Case 10
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 11
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 12
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 13
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 14
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 15
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 16
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 17
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 18
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 19
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 20
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 21
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 22
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 23
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 24
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 25
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 26
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 27
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 28
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 29
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 30
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 31
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 32
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 33
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 34
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 35
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 36
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 37
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 38
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 39
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 40
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 41
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 42
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 43
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 44
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 45
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 46
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 47
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 48
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 49
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 50
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 51
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 52
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 53
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 54
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 55
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 56
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 57
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 58
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 59
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 60
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 61
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 62
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 63
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 64
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 65
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 66
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 67
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 68
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 69
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 70
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 71
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
         End Select
     End Sub
 
@@ -944,180 +2984,652 @@
             Case 13
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 14
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 15
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 16
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 17
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 18
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 19
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 20
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 21
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 22
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 23
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 24
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 25
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 26
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 27
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 28
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 29
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 30
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 31
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 32
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 33
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 34
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 35
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 36
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 37
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 38
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 39
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 40
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 41
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 42
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 43
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 44
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 45
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 46
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 47
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 48
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 49
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 50
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 51
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 52
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 53
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 54
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 55
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 56
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 57
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 58
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 59
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 60
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 61
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 62
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 63
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 64
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 65
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 66
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 67
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 68
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 69
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 70
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
             Case 71
                 AxVLCPlugin21.playlist.clear()
                 AxVLCPlugin21.playlist.add("")
+                Durationlbl.Text = ""
+                Genrelbl.Text = ""
+                Yearlbl.Text = ""
+                IMDBlbl.Text = ""
+                Durationlbl.Visible = True
+                Genrelbl.Visible = True
+                Yearlbl.Visible = True
+                IMDBlbl.Visible = True
         End Select
     End Sub
 
@@ -1146,6 +3658,10 @@
         AxVLCPlugin21.playlist.stop()
         BufferBarOff.Visible = True
         BufferBarOn.Visible = False
+        Durationlbl.Visible = False
+        Genrelbl.Visible = False
+        Yearlbl.Visible = False
+        IMDBlbl.Visible = False
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
@@ -1229,6 +3745,7 @@
 
     Private Sub Button16_Click(sender As Object, e As EventArgs) Handles VolOnBtn.Click
         VolPnl.Visible = True
+        InfoPnl.Visible = False
         VolOnBtn.Visible = False
         VolOffBtn.Visible = True
     End Sub
@@ -1253,6 +3770,7 @@
 
     Private Sub PosOnBtn_Click(sender As Object, e As EventArgs) Handles PosOnBtn.Click
         VolPnl.Visible = True
+        InfoPnl.Visible = False
         TrackBar2.Visible = True
         PosOnBtn.Visible = False
         PosOffBtn.Visible = True
@@ -1283,6 +3801,13 @@
         MenuPnlHider.Location = New Point(9, 277)
         MenuOff.Visible = False
         MenuOn.Visible = True
+        InfoPnl.Visible = False
+        Durationlbl.Visible = False
+        Genrelbl.Visible = False
+        Yearlbl.Visible = False
+        IMDBlbl.Visible = False
+        InfoOffBtn.Visible = False
+        InfoOnBtn.Visible = True
     End Sub
 
     Private Sub Button15_Click(sender As Object, e As EventArgs) Handles Button15.Click
@@ -1298,5 +3823,18 @@
         SciFiPic2.Visible = False
         SciFiPic1.Visible = True
         FantasyList.Visible = True
+    End Sub
+
+    Private Sub InfoOnBtn_Click(sender As Object, e As EventArgs) Handles InfoOnBtn.Click
+        InfoOffBtn.Visible = True
+        InfoOnBtn.Visible = False
+        InfoPnl.Visible = True
+        VolPnl.Visible = False
+    End Sub
+
+    Private Sub InfoOffBtn_Click(sender As Object, e As EventArgs) Handles InfoOffBtn.Click
+        InfoOffBtn.Visible = False
+        InfoOnBtn.Visible = True
+        InfoPnl.Visible = False
     End Sub
 End Class
