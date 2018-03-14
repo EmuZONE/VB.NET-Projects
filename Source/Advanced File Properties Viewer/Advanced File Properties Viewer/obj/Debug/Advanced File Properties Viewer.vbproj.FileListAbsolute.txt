@@ -1,0 +1,14 @@
+c:\users\yggdraz1l\source\repos\Advanced File Properties Viewer\Advanced File Properties Viewer\bin\Debug\Advanced File Properties Viewer.exe.config
+c:\users\yggdraz1l\source\repos\Advanced File Properties Viewer\Advanced File Properties Viewer\bin\Debug\Advanced File Properties Viewer.exe
+c:\users\yggdraz1l\source\repos\Advanced File Properties Viewer\Advanced File Properties Viewer\bin\Debug\Advanced File Properties Viewer.pdb
+c:\users\yggdraz1l\source\repos\Advanced File Properties Viewer\Advanced File Properties Viewer\bin\Debug\Advanced File Properties Viewer.xml
+c:\users\yggdraz1l\source\repos\Advanced File Properties Viewer\Advanced File Properties Viewer\obj\Debug\Advanced File Properties Viewer.vbprojResolveAssemblyReference.cache
+c:\users\yggdraz1l\source\repos\Advanced File Properties Viewer\Advanced File Properties Viewer\obj\Debug\Advanced_File_Properties_Viewer.Form1.resources
+c:\users\yggdraz1l\source\repos\Advanced File Properties Viewer\Advanced File Properties Viewer\obj\Debug\Advanced_File_Properties_Viewer.Resources.resources
+c:\users\yggdraz1l\source\repos\Advanced File Properties Viewer\Advanced File Properties Viewer\obj\Debug\Advanced File Properties Viewer.vbproj.GenerateResource.Cache
+c:\users\yggdraz1l\source\repos\Advanced File Properties Viewer\Advanced File Properties Viewer\obj\Debug\Advanced File Properties Viewer.vbproj.CoreCompileInputs.cache
+c:\users\yggdraz1l\source\repos\Advanced File Properties Viewer\Advanced File Properties Viewer\obj\Debug\Advanced File Properties Viewer.exe
+c:\users\yggdraz1l\source\repos\Advanced File Properties Viewer\Advanced File Properties Viewer\obj\Debug\Advanced File Properties Viewer.xml
+c:\users\yggdraz1l\source\repos\Advanced File Properties Viewer\Advanced File Properties Viewer\obj\Debug\Advanced File Properties Viewer.pdb
+c:\users\yggdraz1l\source\repos\Advanced File Properties Viewer\Advanced File Properties Viewer\obj\Debug\Interop.DSOFile.dll
+c:\users\yggdraz1l\source\repos\Advanced File Properties Viewer\Advanced File Properties Viewer\obj\Debug\Advanced File Properties Viewer.vbproj.ResolveComReference.cache
