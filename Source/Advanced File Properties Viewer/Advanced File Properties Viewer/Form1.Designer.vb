@@ -101,15 +101,18 @@ Partial Class Form1
         '
         'FileNameTextBox
         '
+        Me.FileNameTextBox.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.FileNameTextBox.ForeColor = System.Drawing.SystemColors.HotTrack
         Me.FileNameTextBox.Location = New System.Drawing.Point(16, 22)
         Me.FileNameTextBox.Name = "FileNameTextBox"
-        Me.FileNameTextBox.Size = New System.Drawing.Size(560, 20)
+        Me.FileNameTextBox.Size = New System.Drawing.Size(560, 21)
         Me.FileNameTextBox.TabIndex = 6
         '
         'ExtendedPropertiesLV
         '
         Me.ExtendedPropertiesLV.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader3, Me.ColumnHeader4})
         Me.ExtendedPropertiesLV.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ExtendedPropertiesLV.ForeColor = System.Drawing.Color.ForestGreen
         Me.ExtendedPropertiesLV.FullRowSelect = True
         Me.ExtendedPropertiesLV.GridLines = True
         Me.ExtendedPropertiesLV.Location = New System.Drawing.Point(16, 280)
@@ -127,12 +130,13 @@ Partial Class Form1
         'ColumnHeader4
         '
         Me.ColumnHeader4.Text = "Wert"
-        Me.ColumnHeader4.Width = 595
+        Me.ColumnHeader4.Width = 570
         '
         'FilePropertiesLV
         '
         Me.FilePropertiesLV.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2})
         Me.FilePropertiesLV.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.FilePropertiesLV.ForeColor = System.Drawing.Color.ForestGreen
         Me.FilePropertiesLV.FullRowSelect = True
         Me.FilePropertiesLV.GridLines = True
         Me.FilePropertiesLV.Location = New System.Drawing.Point(16, 76)
@@ -150,7 +154,7 @@ Partial Class Form1
         'ColumnHeader2
         '
         Me.ColumnHeader2.Text = "Wert"
-        Me.ColumnHeader2.Width = 596
+        Me.ColumnHeader2.Width = 570
         '
         'Form1
         '
