@@ -1,0 +1,1 @@
+1.1.0.1;https://github.com/EmuZONE/VB.NET-Projects/raw/master/Updates/Binaries/AFD_Patch-1.01.exe
