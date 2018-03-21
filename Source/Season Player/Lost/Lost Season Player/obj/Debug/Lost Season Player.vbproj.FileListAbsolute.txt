@@ -1,0 +1,20 @@
+C:\Users\YggDraz1l\source\repos\Lost Season Player\Lost Season Player\bin\Debug\Lost Season Player.exe.config
+C:\Users\YggDraz1l\source\repos\Lost Season Player\Lost Season Player\bin\Debug\Lost Season Player.exe
+C:\Users\YggDraz1l\source\repos\Lost Season Player\Lost Season Player\bin\Debug\Lost Season Player.pdb
+C:\Users\YggDraz1l\source\repos\Lost Season Player\Lost Season Player\bin\Debug\Lost Season Player.xml
+C:\Users\YggDraz1l\source\repos\Lost Season Player\Lost Season Player\bin\Debug\Interop.WMPLib.dll
+C:\Users\YggDraz1l\source\repos\Lost Season Player\Lost Season Player\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\YggDraz1l\source\repos\Lost Season Player\Lost Season Player\obj\Debug\Lost Season Player.vbprojResolveAssemblyReference.cache
+C:\Users\YggDraz1l\source\repos\Lost Season Player\Lost Season Player\obj\Debug\Interop.WMPLib.dll
+C:\Users\YggDraz1l\source\repos\Lost Season Player\Lost Season Player\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\YggDraz1l\source\repos\Lost Season Player\Lost Season Player\obj\Debug\Lost Season Player.vbproj.ResolveComReference.cache
+C:\Users\YggDraz1l\source\repos\Lost Season Player\Lost Season Player\obj\Debug\Lost_Season_Player.Form1.resources
+C:\Users\YggDraz1l\source\repos\Lost Season Player\Lost Season Player\obj\Debug\Lost_Season_Player.Resources.resources
+C:\Users\YggDraz1l\source\repos\Lost Season Player\Lost Season Player\obj\Debug\Lost Season Player.vbproj.GenerateResource.Cache
+C:\Users\YggDraz1l\source\repos\Lost Season Player\Lost Season Player\obj\Debug\Lost Season Player.vbproj.CoreCompileInputs.cache
+C:\Users\YggDraz1l\source\repos\Lost Season Player\Lost Season Player\obj\Debug\Lost Season Player.exe
+C:\Users\YggDraz1l\source\repos\Lost Season Player\Lost Season Player\obj\Debug\Lost Season Player.xml
+C:\Users\YggDraz1l\source\repos\Lost Season Player\Lost Season Player\obj\Debug\Lost Season Player.pdb
+C:\Users\YggDraz1l\source\repos\Lost Season Player\Lost Season Player\obj\Debug\Lost_Season_Player.Settings.resources
+C:\Users\YggDraz1l\source\repos\Lost Season Player\Lost Season Player\obj\Debug\Lost_Season_Player.SplashScreen.resources
+C:\Users\YggDraz1l\source\repos\Lost Season Player\Lost Season Player\obj\Debug\Lost_Season_Player.UpdateDialog.resources
