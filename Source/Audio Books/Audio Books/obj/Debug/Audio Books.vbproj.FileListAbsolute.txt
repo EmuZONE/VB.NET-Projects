@@ -1,0 +1,19 @@
+c:\users\yggdraz1l\source\repos\Audio Books\Audio Books\bin\Debug\Audio Books.exe.config
+c:\users\yggdraz1l\source\repos\Audio Books\Audio Books\bin\Debug\Audio Books.exe
+c:\users\yggdraz1l\source\repos\Audio Books\Audio Books\bin\Debug\Audio Books.pdb
+c:\users\yggdraz1l\source\repos\Audio Books\Audio Books\bin\Debug\Audio Books.xml
+c:\users\yggdraz1l\source\repos\Audio Books\Audio Books\bin\Debug\Interop.WMPLib.dll
+c:\users\yggdraz1l\source\repos\Audio Books\Audio Books\bin\Debug\AxInterop.WMPLib.dll
+c:\users\yggdraz1l\source\repos\Audio Books\Audio Books\obj\Debug\Audio Books.vbprojResolveAssemblyReference.cache
+c:\users\yggdraz1l\source\repos\Audio Books\Audio Books\obj\Debug\Interop.WMPLib.dll
+c:\users\yggdraz1l\source\repos\Audio Books\Audio Books\obj\Debug\AxInterop.WMPLib.dll
+c:\users\yggdraz1l\source\repos\Audio Books\Audio Books\obj\Debug\Audio Books.vbproj.ResolveComReference.cache
+c:\users\yggdraz1l\source\repos\Audio Books\Audio Books\obj\Debug\Audio_Books.Form1.resources
+c:\users\yggdraz1l\source\repos\Audio Books\Audio Books\obj\Debug\Audio_Books.Resources.resources
+c:\users\yggdraz1l\source\repos\Audio Books\Audio Books\obj\Debug\Audio Books.vbproj.GenerateResource.Cache
+c:\users\yggdraz1l\source\repos\Audio Books\Audio Books\obj\Debug\Audio Books.vbproj.CoreCompileInputs.cache
+c:\users\yggdraz1l\source\repos\Audio Books\Audio Books\obj\Debug\Audio Books.exe
+c:\users\yggdraz1l\source\repos\Audio Books\Audio Books\obj\Debug\Audio Books.xml
+c:\users\yggdraz1l\source\repos\Audio Books\Audio Books\obj\Debug\Audio Books.pdb
+c:\users\yggdraz1l\source\repos\Audio Books\Audio Books\obj\Debug\Audio_Books.Settings.resources
+C:\Users\YggDraz1l\source\repos\Audio Books\Audio Books\obj\Debug\Audio_Books.SplashScreen.resources
