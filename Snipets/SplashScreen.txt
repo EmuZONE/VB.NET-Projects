@@ -1,0 +1,6 @@
+ProgressBar1.Increment(1)
+       If ProgressBar1.value = 100 Then
+              Me.hide()
+              Timer1.Enabled = False
+              form1.Show()
+       End IF
